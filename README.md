@@ -383,9 +383,3 @@ metrics:
 | **Caching** | Avoid recomputation when outputs already exist; detect parameter changes | `cached()` function + `run_metadata.json` parameter mismatch warnings |
 | **Output verification** | Confirm all expected files and columns are present after each run | `verify_outputs()` checks columns, file existence, and AUC sanity |
 
-### What's not yet implemented
-
-| Item | Status |
-|---|---|
-| Statistical significance testing (permutation tests, confidence intervals) | Not started |
-| Unit tests for `src/` modules | Not started |
