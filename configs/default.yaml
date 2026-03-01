@@ -1,0 +1,78 @@
+# =============================================================================
+# Default Configuration for CSH TU Wien Comorbidity Project
+# =============================================================================
+# This config is used by final/run_all_combinations.py
+# CLI arguments override these defaults.
+# =============================================================================
+
+# Path to data root directory.
+# Uses DATA_ROOT environment variable if set, otherwise defaults to ../Data
+data_root: ${DATA_ROOT:../Data}
+
+# Subdirectory containing GEXF graph files (relative to data_root)
+gexf_subdir: "4.Graphs-gexffiles"
+
+# =============================================================================
+# Stratum Selection (defaults; override via CLI)
+# =============================================================================
+
+# Sex: "male" or "female"
+sex: male
+
+# Variant: "blocks", "chronic", or "icd"
+# - blocks: ICD-10 block-level aggregation (e.g., A00-A09)
+# - chronic: Chronic disease categories
+# - icd: Individual ICD codes
+variant: blocks
+
+# Age group: 1-8 (ordinal bins; see configs/age_groups.yaml for ranges)
+age_group: 1
+
+# Period: optional year or year range (e.g., "2003" or "2003-2004")
+# Leave null to use age-stratified files instead of year-stratified
+period: null
+
+# =============================================================================
+# Edge Weight Configuration
+# =============================================================================
+
+# Preferred edge weight attribute name in GEXF files
+# The loader will use this attribute if present; otherwise picks first numeric edge attr
+weight_attribute: "weight"
+
+# =============================================================================
+# Node2Vec Embedding Configuration
+# =============================================================================
+
+embeddings:
+  # Embedding dimensionality
+  dim: 128
+
+  # Random walk parameters
+  walk_length: 80    # Length of each random walk
+  num_walks: 10      # Number of walks per node
+  window: 10         # Context window size for Word2Vec
+
+  # Node2Vec bias parameters
+  p: 1.0             # Return parameter (1.0 = unbiased)
+  q: 1.0             # In-out parameter (1.0 = unbiased)
+
+  # Training parameters
+  workers: 4         # Parallel workers for training
+  seed: 42           # Random seed for reproducibility
+
+# =============================================================================
+# Procrustes Alignment Configuration
+# =============================================================================
+
+alignment:
+  # Reference age group for alignment (all others aligned to this)
+  reference_age: 1
+
+# =============================================================================
+# Age-Shift Metrics Configuration
+# =============================================================================
+
+metrics:
+  # Number of nearest neighbors for kNN stability computation
+  knn_k: 25

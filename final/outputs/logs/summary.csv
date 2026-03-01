@@ -1,0 +1,7 @@
+sex,node_type,status,seconds
+male,icd,OK,1.1
+male,blocks,OK,0.3
+male,chronic,OK,0.2
+female,icd,OK,0.9
+female,blocks,OK,0.2
+female,chronic,OK,0.2

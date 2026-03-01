@@ -1,0 +1,4 @@
+config_a,config_b,mode,spearman_rho,n_common_nodes
+p=1.0_q=1.0,p=0.5_q=2.0,non_isolates,0.8919,112
+p=1.0_q=1.0,p=2.0_q=0.5,non_isolates,0.942,112
+p=0.5_q=2.0,p=2.0_q=0.5,non_isolates,0.8699,112

@@ -1,0 +1,161 @@
+2026-02-28 22:40:34,085  INFO      Pipeline starting  (force=False, robustness=False, reproducible=False, threshold_robustness=False)
+2026-02-28 22:40:34,085  INFO      Data root: /Users/antemilicevic/Documents/Project/code/Data
+2026-02-28 22:40:34,085  INFO      Output root: /Users/antemilicevic/Documents/Project/code/csh-tuwien-project/final/outputs
+2026-02-28 22:40:34,085  INFO      ============================================================
+2026-02-28 22:40:34,085  INFO      START  male / icd
+2026-02-28 22:40:34,085  INFO      ============================================================
+2026-02-28 22:40:34,567  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-02-28 22:40:34,704  DEBUG       [B] Loaded cached embeddings age 1
+2026-02-28 22:40:34,722  DEBUG       [B] Loaded cached embeddings age 2
+2026-02-28 22:40:34,741  DEBUG       [B] Loaded cached embeddings age 3
+2026-02-28 22:40:34,760  DEBUG       [B] Loaded cached embeddings age 4
+2026-02-28 22:40:34,778  DEBUG       [B] Loaded cached embeddings age 5
+2026-02-28 22:40:34,797  DEBUG       [B] Loaded cached embeddings age 6
+2026-02-28 22:40:34,816  DEBUG       [B] Loaded cached embeddings age 7
+2026-02-28 22:40:34,834  DEBUG       [B] Loaded cached embeddings age 8
+2026-02-28 22:40:34,834  INFO        [C] Saved PCA plots
+2026-02-28 22:40:34,981  INFO        [D] Loaded cached aligned embeddings (ref=1)
+2026-02-28 22:40:35,128  INFO        [D] Loaded cached non-isolate aligned embeddings
+2026-02-28 22:40:35,131  INFO        [E] Loaded cached drift.csv
+2026-02-28 22:40:35,133  INFO        [E] Loaded cached stability.csv
+2026-02-28 22:40:35,135  INFO        [E] Metrics plots saved
+2026-02-28 22:40:35,135  INFO        [F] Loaded cached structure_preservation.csv
+2026-02-28 22:40:35,137  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.505 (expected ~0.5 under null)
+2026-02-28 22:40:35,141  INFO        VERIFY: all output checks passed
+2026-02-28 22:40:35,141  INFO      DONE   male / icd  (1.1 s)
+2026-02-28 22:40:35,143  INFO      ============================================================
+2026-02-28 22:40:35,143  INFO      START  male / blocks
+2026-02-28 22:40:35,143  INFO      ============================================================
+2026-02-28 22:40:35,229  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-02-28 22:40:35,239  DEBUG       [B] Loaded cached embeddings age 1
+2026-02-28 22:40:35,246  DEBUG       [B] Loaded cached embeddings age 2
+2026-02-28 22:40:35,253  DEBUG       [B] Loaded cached embeddings age 3
+2026-02-28 22:40:35,259  DEBUG       [B] Loaded cached embeddings age 4
+2026-02-28 22:40:35,265  DEBUG       [B] Loaded cached embeddings age 5
+2026-02-28 22:40:35,272  DEBUG       [B] Loaded cached embeddings age 6
+2026-02-28 22:40:35,278  DEBUG       [B] Loaded cached embeddings age 7
+2026-02-28 22:40:35,284  DEBUG       [B] Loaded cached embeddings age 8
+2026-02-28 22:40:35,284  INFO        [C] Saved PCA plots
+2026-02-28 22:40:35,334  INFO        [D] Loaded cached aligned embeddings (ref=1)
+2026-02-28 22:40:35,383  INFO        [D] Loaded cached non-isolate aligned embeddings
+2026-02-28 22:40:35,384  INFO        [E] Loaded cached drift.csv
+2026-02-28 22:40:35,385  INFO        [E] Loaded cached stability.csv
+2026-02-28 22:40:35,387  INFO        [E] Metrics plots saved
+2026-02-28 22:40:35,387  INFO        [F] Loaded cached structure_preservation.csv
+2026-02-28 22:40:35,389  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.385 (expected ~0.5 under null)
+2026-02-28 22:40:35,393  INFO        VERIFY: all output checks passed
+2026-02-28 22:40:35,393  INFO      DONE   male / blocks  (0.3 s)
+2026-02-28 22:40:35,394  INFO      ============================================================
+2026-02-28 22:40:35,394  INFO      START  male / chronic
+2026-02-28 22:40:35,394  INFO      ============================================================
+2026-02-28 22:40:35,408  WARNING     Graph missing: sex=male variant=chronic age=1
+2026-02-28 22:40:35,431  INFO        [A] Loaded 7 graphs, saved graph_stats.csv
+2026-02-28 22:40:35,431  WARNING     Reference age 1 unavailable, falling back to 2
+2026-02-28 22:40:35,440  DEBUG       [B] Loaded cached embeddings age 2
+2026-02-28 22:40:35,445  DEBUG       [B] Loaded cached embeddings age 3
+2026-02-28 22:40:35,450  DEBUG       [B] Loaded cached embeddings age 4
+2026-02-28 22:40:35,455  DEBUG       [B] Loaded cached embeddings age 5
+2026-02-28 22:40:35,460  DEBUG       [B] Loaded cached embeddings age 6
+2026-02-28 22:40:35,465  DEBUG       [B] Loaded cached embeddings age 7
+2026-02-28 22:40:35,470  DEBUG       [B] Loaded cached embeddings age 8
+2026-02-28 22:40:35,470  INFO        [C] Saved PCA plots
+2026-02-28 22:40:35,505  INFO        [D] Loaded cached aligned embeddings (ref=2)
+2026-02-28 22:40:35,541  INFO        [D] Loaded cached non-isolate aligned embeddings
+2026-02-28 22:40:35,542  INFO        [E] Loaded cached drift.csv
+2026-02-28 22:40:35,542  INFO        [E] Loaded cached stability.csv
+2026-02-28 22:40:35,544  INFO        [E] Metrics plots saved
+2026-02-28 22:40:35,544  INFO        [F] Loaded cached structure_preservation.csv
+2026-02-28 22:40:35,545  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.447 (expected ~0.5 under null)
+2026-02-28 22:40:35,550  INFO        VERIFY: all output checks passed
+2026-02-28 22:40:35,550  INFO      DONE   male / chronic  (0.2 s)
+2026-02-28 22:40:35,551  INFO      ============================================================
+2026-02-28 22:40:35,551  INFO      START  female / icd
+2026-02-28 22:40:35,551  INFO      ============================================================
+2026-02-28 22:40:36,007  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-02-28 22:40:36,028  DEBUG       [B] Loaded cached embeddings age 1
+2026-02-28 22:40:36,046  DEBUG       [B] Loaded cached embeddings age 2
+2026-02-28 22:40:36,065  DEBUG       [B] Loaded cached embeddings age 3
+2026-02-28 22:40:36,084  DEBUG       [B] Loaded cached embeddings age 4
+2026-02-28 22:40:36,103  DEBUG       [B] Loaded cached embeddings age 5
+2026-02-28 22:40:36,123  DEBUG       [B] Loaded cached embeddings age 6
+2026-02-28 22:40:36,141  DEBUG       [B] Loaded cached embeddings age 7
+2026-02-28 22:40:36,161  DEBUG       [B] Loaded cached embeddings age 8
+2026-02-28 22:40:36,161  INFO        [C] Saved PCA plots
+2026-02-28 22:40:36,313  INFO        [D] Loaded cached aligned embeddings (ref=1)
+2026-02-28 22:40:36,459  INFO        [D] Loaded cached non-isolate aligned embeddings
+2026-02-28 22:40:36,461  INFO        [E] Loaded cached drift.csv
+2026-02-28 22:40:36,464  INFO        [E] Loaded cached stability.csv
+2026-02-28 22:40:36,465  INFO        [E] Metrics plots saved
+2026-02-28 22:40:36,466  INFO        [F] Loaded cached structure_preservation.csv
+2026-02-28 22:40:36,467  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.493 (expected ~0.5 under null)
+2026-02-28 22:40:36,470  INFO        VERIFY: all output checks passed
+2026-02-28 22:40:36,471  INFO      DONE   female / icd  (0.9 s)
+2026-02-28 22:40:36,473  INFO      ============================================================
+2026-02-28 22:40:36,473  INFO      START  female / blocks
+2026-02-28 22:40:36,473  INFO      ============================================================
+2026-02-28 22:40:36,555  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-02-28 22:40:36,565  DEBUG       [B] Loaded cached embeddings age 1
+2026-02-28 22:40:36,572  DEBUG       [B] Loaded cached embeddings age 2
+2026-02-28 22:40:36,578  DEBUG       [B] Loaded cached embeddings age 3
+2026-02-28 22:40:36,584  DEBUG       [B] Loaded cached embeddings age 4
+2026-02-28 22:40:36,590  DEBUG       [B] Loaded cached embeddings age 5
+2026-02-28 22:40:36,597  DEBUG       [B] Loaded cached embeddings age 6
+2026-02-28 22:40:36,603  DEBUG       [B] Loaded cached embeddings age 7
+2026-02-28 22:40:36,610  DEBUG       [B] Loaded cached embeddings age 8
+2026-02-28 22:40:36,610  INFO        [C] Saved PCA plots
+2026-02-28 22:40:36,659  INFO        [D] Loaded cached aligned embeddings (ref=1)
+2026-02-28 22:40:36,709  INFO        [D] Loaded cached non-isolate aligned embeddings
+2026-02-28 22:40:36,710  INFO        [E] Loaded cached drift.csv
+2026-02-28 22:40:36,711  INFO        [E] Loaded cached stability.csv
+2026-02-28 22:40:36,712  INFO        [E] Metrics plots saved
+2026-02-28 22:40:36,713  INFO        [F] Loaded cached structure_preservation.csv
+2026-02-28 22:40:36,714  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.408 (expected ~0.5 under null)
+2026-02-28 22:40:36,718  INFO        VERIFY: all output checks passed
+2026-02-28 22:40:36,718  INFO      DONE   female / blocks  (0.2 s)
+2026-02-28 22:40:36,719  INFO      ============================================================
+2026-02-28 22:40:36,719  INFO      START  female / chronic
+2026-02-28 22:40:36,719  INFO      ============================================================
+2026-02-28 22:40:36,735  WARNING     Graph missing: sex=female variant=chronic age=1
+2026-02-28 22:40:36,759  INFO        [A] Loaded 7 graphs, saved graph_stats.csv
+2026-02-28 22:40:36,759  WARNING     Reference age 1 unavailable, falling back to 2
+2026-02-28 22:40:36,767  DEBUG       [B] Loaded cached embeddings age 2
+2026-02-28 22:40:36,773  DEBUG       [B] Loaded cached embeddings age 3
+2026-02-28 22:40:36,778  DEBUG       [B] Loaded cached embeddings age 4
+2026-02-28 22:40:36,783  DEBUG       [B] Loaded cached embeddings age 5
+2026-02-28 22:40:36,788  DEBUG       [B] Loaded cached embeddings age 6
+2026-02-28 22:40:36,794  DEBUG       [B] Loaded cached embeddings age 7
+2026-02-28 22:40:36,799  DEBUG       [B] Loaded cached embeddings age 8
+2026-02-28 22:40:36,800  INFO        [C] Saved PCA plots
+2026-02-28 22:40:36,839  INFO        [D] Loaded cached aligned embeddings (ref=2)
+2026-02-28 22:40:36,880  INFO        [D] Loaded cached non-isolate aligned embeddings
+2026-02-28 22:40:36,881  INFO        [E] Loaded cached drift.csv
+2026-02-28 22:40:36,882  INFO        [E] Loaded cached stability.csv
+2026-02-28 22:40:36,884  INFO        [E] Metrics plots saved
+2026-02-28 22:40:36,885  INFO        [F] Loaded cached structure_preservation.csv
+2026-02-28 22:40:36,886  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.432 (expected ~0.5 under null)
+2026-02-28 22:40:36,891  INFO        VERIFY: all output checks passed
+2026-02-28 22:40:36,891  INFO      DONE   female / chronic  (0.2 s)
+2026-02-28 22:40:36,891  INFO      Generating combined summary figures ...
+2026-02-28 22:40:36,891  INFO      Combined embeddings figure already exists, skipping
+2026-02-28 22:40:36,891  INFO      Combined graphs gallery already exists, skipping
+2026-02-28 22:40:36,891  INFO      Saved individual graph gallery PNGs → /Users/antemilicevic/Documents/Project/code/csh-tuwien-project/final/outputs/figures/graphs_gallery
+2026-02-28 22:40:36,891  INFO      Combined alignment residuals figure already exists, skipping
+2026-02-28 22:40:36,892  INFO      Combined structure preservation figure already exists, skipping
+2026-02-28 22:40:36,892  INFO      ============================================================
+2026-02-28 22:40:36,892  INFO      STEP H — Chronic analysis & node trajectories
+2026-02-28 22:40:36,892  INFO      ============================================================
+2026-02-28 22:40:36,892  INFO        [H] Processing male / icd ...
+2026-02-28 22:40:36,897  INFO        [H] 243 chronic codes matched out of 1080 graph nodes
+2026-02-28 22:40:37,052  INFO        [H] Processing female / icd ...
+2026-02-28 22:40:37,057  INFO        [H] 243 chronic codes matched out of 1080 graph nodes
+2026-02-28 22:40:37,207  INFO      Combined link prediction figure already exists, skipping
+2026-02-28 22:40:37,207  INFO      ------------------------------------------------------------
+2026-02-28 22:40:37,207  INFO      SUMMARY
+2026-02-28 22:40:37,207  INFO        male / icd       OK  (1.1 s)
+2026-02-28 22:40:37,207  INFO        male / blocks    OK  (0.3 s)
+2026-02-28 22:40:37,207  INFO        male / chronic   OK  (0.2 s)
+2026-02-28 22:40:37,207  INFO        female / icd       OK  (0.9 s)
+2026-02-28 22:40:37,207  INFO        female / blocks    OK  (0.2 s)
+2026-02-28 22:40:37,207  INFO        female / chronic   OK  (0.2 s)
+2026-02-28 22:40:37,207  INFO      Summary written to /Users/antemilicevic/Documents/Project/code/csh-tuwien-project/final/outputs/logs/summary.csv
+2026-02-28 22:40:37,207  INFO      All done.

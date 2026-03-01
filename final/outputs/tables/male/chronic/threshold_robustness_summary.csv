@@ -1,0 +1,4 @@
+threshold_a,threshold_b,spearman_rho,jaccard_at_20,n_common
+100%,80%,0.7549,0.7391,46
+100%,60%,0.6353,0.5385,46
+80%,60%,0.796,0.7391,46

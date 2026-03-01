@@ -1,0 +1,13 @@
+{
+  "dim": 128,
+  "walk_length": 80,
+  "num_walks": 10,
+  "window": 10,
+  "p": 1.0,
+  "q": 1.0,
+  "seed": 42,
+  "workers": 4,
+  "reference_age": 1,
+  "knn_k": 25,
+  "git_hash": "180aa4e"
+}

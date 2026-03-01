@@ -1,0 +1,22 @@
+2026-02-28 22:40:35,143  INFO      ============================================================
+2026-02-28 22:40:35,143  INFO      START  male / blocks
+2026-02-28 22:40:35,143  INFO      ============================================================
+2026-02-28 22:40:35,229  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-02-28 22:40:35,239  DEBUG       [B] Loaded cached embeddings age 1
+2026-02-28 22:40:35,246  DEBUG       [B] Loaded cached embeddings age 2
+2026-02-28 22:40:35,253  DEBUG       [B] Loaded cached embeddings age 3
+2026-02-28 22:40:35,259  DEBUG       [B] Loaded cached embeddings age 4
+2026-02-28 22:40:35,265  DEBUG       [B] Loaded cached embeddings age 5
+2026-02-28 22:40:35,272  DEBUG       [B] Loaded cached embeddings age 6
+2026-02-28 22:40:35,278  DEBUG       [B] Loaded cached embeddings age 7
+2026-02-28 22:40:35,284  DEBUG       [B] Loaded cached embeddings age 8
+2026-02-28 22:40:35,284  INFO        [C] Saved PCA plots
+2026-02-28 22:40:35,334  INFO        [D] Loaded cached aligned embeddings (ref=1)
+2026-02-28 22:40:35,383  INFO        [D] Loaded cached non-isolate aligned embeddings
+2026-02-28 22:40:35,384  INFO        [E] Loaded cached drift.csv
+2026-02-28 22:40:35,385  INFO        [E] Loaded cached stability.csv
+2026-02-28 22:40:35,387  INFO        [E] Metrics plots saved
+2026-02-28 22:40:35,387  INFO        [F] Loaded cached structure_preservation.csv
+2026-02-28 22:40:35,389  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.385 (expected ~0.5 under null)
+2026-02-28 22:40:35,393  INFO        VERIFY: all output checks passed
+2026-02-28 22:40:35,393  INFO      DONE   male / blocks  (0.3 s)

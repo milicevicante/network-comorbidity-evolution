@@ -1,0 +1,23 @@
+2026-02-28 22:40:35,394  INFO      ============================================================
+2026-02-28 22:40:35,394  INFO      START  male / chronic
+2026-02-28 22:40:35,394  INFO      ============================================================
+2026-02-28 22:40:35,408  WARNING     Graph missing: sex=male variant=chronic age=1
+2026-02-28 22:40:35,431  INFO        [A] Loaded 7 graphs, saved graph_stats.csv
+2026-02-28 22:40:35,431  WARNING     Reference age 1 unavailable, falling back to 2
+2026-02-28 22:40:35,440  DEBUG       [B] Loaded cached embeddings age 2
+2026-02-28 22:40:35,445  DEBUG       [B] Loaded cached embeddings age 3
+2026-02-28 22:40:35,450  DEBUG       [B] Loaded cached embeddings age 4
+2026-02-28 22:40:35,455  DEBUG       [B] Loaded cached embeddings age 5
+2026-02-28 22:40:35,460  DEBUG       [B] Loaded cached embeddings age 6
+2026-02-28 22:40:35,465  DEBUG       [B] Loaded cached embeddings age 7
+2026-02-28 22:40:35,470  DEBUG       [B] Loaded cached embeddings age 8
+2026-02-28 22:40:35,470  INFO        [C] Saved PCA plots
+2026-02-28 22:40:35,505  INFO        [D] Loaded cached aligned embeddings (ref=2)
+2026-02-28 22:40:35,541  INFO        [D] Loaded cached non-isolate aligned embeddings
+2026-02-28 22:40:35,542  INFO        [E] Loaded cached drift.csv
+2026-02-28 22:40:35,542  INFO        [E] Loaded cached stability.csv
+2026-02-28 22:40:35,544  INFO        [E] Metrics plots saved
+2026-02-28 22:40:35,544  INFO        [F] Loaded cached structure_preservation.csv
+2026-02-28 22:40:35,545  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.447 (expected ~0.5 under null)
+2026-02-28 22:40:35,550  INFO        VERIFY: all output checks passed
+2026-02-28 22:40:35,550  INFO      DONE   male / chronic  (0.2 s)

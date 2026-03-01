@@ -1,0 +1,22 @@
+2026-02-28 22:40:35,551  INFO      ============================================================
+2026-02-28 22:40:35,551  INFO      START  female / icd
+2026-02-28 22:40:35,551  INFO      ============================================================
+2026-02-28 22:40:36,007  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-02-28 22:40:36,028  DEBUG       [B] Loaded cached embeddings age 1
+2026-02-28 22:40:36,046  DEBUG       [B] Loaded cached embeddings age 2
+2026-02-28 22:40:36,065  DEBUG       [B] Loaded cached embeddings age 3
+2026-02-28 22:40:36,084  DEBUG       [B] Loaded cached embeddings age 4
+2026-02-28 22:40:36,103  DEBUG       [B] Loaded cached embeddings age 5
+2026-02-28 22:40:36,123  DEBUG       [B] Loaded cached embeddings age 6
+2026-02-28 22:40:36,141  DEBUG       [B] Loaded cached embeddings age 7
+2026-02-28 22:40:36,161  DEBUG       [B] Loaded cached embeddings age 8
+2026-02-28 22:40:36,161  INFO        [C] Saved PCA plots
+2026-02-28 22:40:36,313  INFO        [D] Loaded cached aligned embeddings (ref=1)
+2026-02-28 22:40:36,459  INFO        [D] Loaded cached non-isolate aligned embeddings
+2026-02-28 22:40:36,461  INFO        [E] Loaded cached drift.csv
+2026-02-28 22:40:36,464  INFO        [E] Loaded cached stability.csv
+2026-02-28 22:40:36,465  INFO        [E] Metrics plots saved
+2026-02-28 22:40:36,466  INFO        [F] Loaded cached structure_preservation.csv
+2026-02-28 22:40:36,467  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.493 (expected ~0.5 under null)
+2026-02-28 22:40:36,470  INFO        VERIFY: all output checks passed
+2026-02-28 22:40:36,471  INFO      DONE   female / icd  (0.9 s)
