@@ -1,0 +1,21 @@
+node,mean_drift
+Dizziness,1.5380158871412277
+Cerebral ischemia/chronic stroke,1.5014599164326985
+Urinary tract calculi,1.4662386576334636
+Atherosclerosis/PAOD,1.4219946165879567
+Joint arthrosis,1.367457961042722
+Severe hearing loss,1.2412826549261808
+Urinary incontinence,1.128815899292628
+Intestinal diverticulosis,1.0486919085184734
+Severe vision reduction,1.0180300632491708
+Rheumatoid arthritis/chronic polyarthritis,0.9932121026019255
+Chronic low back pain,0.9917393283297619
+Chronic gastritis/GERD,0.9690770953893661
+Anemia,0.9477209448814392
+Insomnia,0.8550888150930405
+Hemorrhoids,0.8489519941310087
+Renal insufficiency,0.8432083427906036
+Dementia,0.8428761065006256
+Osteoporosis,0.805990057066083
+Hypotension,0.7812295180434982
+Thyroid diseases,0.7701409583290418

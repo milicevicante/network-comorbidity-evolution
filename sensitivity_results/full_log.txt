@@ -1,0 +1,212 @@
+
+======== RUN 1/21 [baseline]: wl=80 nw=10 w=10 p=1.0 q=1.0 ========
+21:53:37  INFO      DONE   male / icd  (213.0 s)
+21:54:17  INFO      DONE   male / blocks  (40.6 s)
+21:54:34  INFO      DONE   male / chronic  (16.5 s)
+21:57:55  INFO      DONE   female / icd  (201.5 s)
+21:58:36  INFO      DONE   female / blocks  (41.0 s)
+21:58:53  INFO      DONE   female / chronic  (17.0 s)
+21:59:17  INFO      SUMMARY
+21:59:17  INFO      All done.
+  Done in 555s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r1_wl80_nw10_w10_p1.0_q1.0
+
+======== RUN 2/21 [walk_strategy]: wl=80 nw=10 w=8 p=1.0 q=1.0 ========
+22:02:36  INFO      DONE   male / icd  (196.5 s)
+22:03:16  INFO      DONE   male / blocks  (39.8 s)
+22:03:32  INFO      DONE   male / chronic  (16.6 s)
+22:06:42  INFO      DONE   female / icd  (189.3 s)
+22:07:22  INFO      DONE   female / blocks  (40.7 s)
+22:07:40  INFO      DONE   female / chronic  (17.2 s)
+22:08:01  INFO      SUMMARY
+22:08:01  INFO      All done.
+  Done in 524s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r2_wl80_nw10_w8_p1.0_q1.0
+
+======== RUN 3/21 [walk_strategy]: wl=80 nw=10 w=12 p=1.0 q=1.0 ========
+22:11:27  INFO      DONE   male / icd  (203.9 s)
+22:12:09  INFO      DONE   male / blocks  (42.0 s)
+22:12:26  INFO      DONE   male / chronic  (17.1 s)
+22:15:42  INFO      DONE   female / icd  (195.6 s)
+22:16:23  INFO      DONE   female / blocks  (41.4 s)
+22:16:40  INFO      DONE   female / chronic  (16.9 s)
+22:17:03  INFO      SUMMARY
+22:17:03  INFO      All done.
+  Done in 541s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r3_wl80_nw10_w12_p1.0_q1.0
+
+======== RUN 4/21 [walk_strategy]: wl=80 nw=10 w=8 p=0.5 q=2.0 ========
+22:20:08  INFO      DONE   male / icd  (183.2 s)
+22:20:47  INFO      DONE   male / blocks  (39.2 s)
+22:21:04  INFO      DONE   male / chronic  (16.4 s)
+22:24:01  INFO      DONE   female / icd  (176.9 s)
+22:24:40  INFO      DONE   female / blocks  (39.3 s)
+22:24:56  INFO      DONE   female / chronic  (16.5 s)
+22:25:19  INFO      SUMMARY
+22:25:19  INFO      All done.
+  Done in 496s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r4_wl80_nw10_w8_p0.5_q2.0
+
+======== RUN 5/21 [walk_strategy]: wl=80 nw=10 w=12 p=0.5 q=2.0 ========
+22:28:29  INFO      DONE   male / icd  (188.3 s)
+22:29:10  INFO      DONE   male / blocks  (41.2 s)
+22:29:27  INFO      DONE   male / chronic  (16.8 s)
+22:32:38  INFO      DONE   female / icd  (191.5 s)
+22:33:20  INFO      DONE   female / blocks  (42.2 s)
+22:33:37  INFO      DONE   female / chronic  (16.9 s)
+22:34:01  INFO      SUMMARY
+22:34:01  INFO      All done.
+  Done in 522s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r5_wl80_nw10_w12_p0.5_q2.0
+
+======== RUN 6/21 [walk_strategy]: wl=80 nw=10 w=8 p=2.0 q=0.5 ========
+22:37:07  INFO      DONE   male / icd  (184.3 s)
+22:37:46  INFO      DONE   male / blocks  (39.6 s)
+22:38:03  INFO      DONE   male / chronic  (16.6 s)
+22:41:06  INFO      DONE   female / icd  (183.1 s)
+22:41:46  INFO      DONE   female / blocks  (40.2 s)
+22:42:03  INFO      DONE   female / chronic  (16.7 s)
+22:42:25  INFO      SUMMARY
+22:42:25  INFO      All done.
+  Done in 504s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r6_wl80_nw10_w8_p2.0_q0.5
+
+======== RUN 7/21 [walk_strategy]: wl=80 nw=10 w=12 p=2.0 q=0.5 ========
+22:45:42  INFO      DONE   male / icd  (195.0 s)
+22:46:24  INFO      DONE   male / blocks  (42.0 s)
+22:46:40  INFO      DONE   male / chronic  (16.6 s)
+22:49:51  INFO      DONE   female / icd  (191.0 s)
+22:50:34  INFO      DONE   female / blocks  (42.6 s)
+22:50:51  INFO      DONE   female / chronic  (17.0 s)
+22:51:14  INFO      SUMMARY
+22:51:14  INFO      All done.
+  Done in 529s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r7_wl80_nw10_w12_p2.0_q0.5
+
+======== RUN 8/21 [walk_coverage]: wl=60 nw=10 w=10 p=1.0 q=1.0 ========
+22:54:03  INFO      DONE   male / icd  (166.4 s)
+22:54:36  INFO      DONE   male / blocks  (33.7 s)
+22:54:51  INFO      DONE   male / chronic  (15.1 s)
+22:57:36  INFO      DONE   female / icd  (164.8 s)
+22:58:10  INFO      DONE   female / blocks  (34.3 s)
+22:58:26  INFO      DONE   female / chronic  (15.3 s)
+22:58:48  INFO      SUMMARY
+22:58:48  INFO      All done.
+  Done in 453s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r8_wl60_nw10_w10_p1.0_q1.0
+
+======== RUN 9/21 [walk_coverage]: wl=80 nw=10 w=10 p=1.0 q=1.0 ========
+23:01:57  INFO      DONE   male / icd  (187.4 s)
+23:02:38  INFO      DONE   male / blocks  (40.4 s)
+23:02:54  INFO      DONE   male / chronic  (16.9 s)
+23:05:56  INFO      DONE   female / icd  (181.4 s)
+23:06:37  INFO      DONE   female / blocks  (41.2 s)
+23:06:54  INFO      DONE   female / chronic  (16.5 s)
+23:07:16  INFO      SUMMARY
+23:07:16  INFO      All done.
+  Done in 508s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r9_wl80_nw10_w10_p1.0_q1.0
+
+======== RUN 10/21 [walk_coverage]: wl=120 nw=10 w=10 p=1.0 q=1.0 ========
+23:11:03  INFO      DONE   male / icd  (225.3 s)
+23:11:57  INFO      DONE   male / blocks  (54.1 s)
+23:12:17  INFO      DONE   male / chronic  (20.0 s)
+23:15:59  INFO      DONE   female / icd  (222.0 s)
+23:16:53  INFO      DONE   female / blocks  (54.5 s)
+23:17:14  INFO      DONE   female / chronic  (20.1 s)
+23:17:36  INFO      SUMMARY
+23:17:36  INFO      All done.
+  Done in 620s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r10_wl120_nw10_w10_p1.0_q1.0
+
+======== RUN 11/21 [walk_coverage]: wl=80 nw=20 w=10 p=1.0 q=1.0 ========
+23:22:08  INFO      DONE   male / icd  (270.6 s)
+23:23:15  INFO      DONE   male / blocks  (66.1 s)
+23:23:38  INFO      DONE   male / chronic  (23.4 s)
+23:28:01  INFO      DONE   female / icd  (263.4 s)
+23:29:09  INFO      DONE   female / blocks  (67.2 s)
+23:29:32  INFO      DONE   female / chronic  (23.5 s)
+23:29:54  INFO      SUMMARY
+23:29:54  INFO      All done.
+  Done in 738s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r11_wl80_nw20_w10_p1.0_q1.0
+
+======== RUN 12/21 [walk_coverage]: wl=120 nw=20 w=10 p=1.0 q=1.0 ========
+23:35:52  INFO      DONE   male / icd  (356.7 s)
+23:37:26  INFO      DONE   male / blocks  (93.8 s)
+23:37:57  INFO      DONE   male / chronic  (30.2 s)
+23:43:46  INFO      DONE   female / icd  (349.2 s)
+23:45:20  INFO      DONE   female / blocks  (94.8 s)
+23:45:51  INFO      DONE   female / chronic  (30.3 s)
+23:46:13  INFO      SUMMARY
+23:46:13  INFO      All done.
+  Done in 979s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r12_wl120_nw20_w10_p1.0_q1.0
+
+======== RUN 13/21 [walk_coverage]: wl=60 nw=20 w=10 p=1.0 q=1.0 ========
+23:50:03  INFO      DONE   male / icd  (227.5 s)
+23:50:56  INFO      DONE   male / blocks  (53.7 s)
+23:51:16  INFO      DONE   male / chronic  (19.8 s)
+23:55:02  INFO      DONE   female / icd  (225.7 s)
+23:55:56  INFO      DONE   female / blocks  (54.0 s)
+23:56:16  INFO      DONE   female / chronic  (20.1 s)
+23:56:38  INFO      SUMMARY
+23:56:38  INFO      All done.
+  Done in 625s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r13_wl60_nw20_w10_p1.0_q1.0
+
+======== RUN 14/21 [combined]: wl=120 nw=20 w=10 p=0.5 q=2.0 ========
+00:02:42  INFO      DONE   male / icd  (362.5 s)
+00:04:17  INFO      DONE   male / blocks  (94.6 s)
+00:04:47  INFO      DONE   male / chronic  (30.5 s)
+00:10:35  INFO      DONE   female / icd  (347.5 s)
+00:12:11  INFO      DONE   female / blocks  (96.7 s)
+00:12:42  INFO      DONE   female / chronic  (30.8 s)
+00:13:04  INFO      SUMMARY
+00:13:04  INFO      All done.
+  Done in 986s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r14_wl120_nw20_w10_p0.5_q2.0
+
+======== RUN 15/21 [combined]: wl=120 nw=20 w=10 p=2.0 q=0.5 ========
+00:19:15  INFO      DONE   male / icd  (368.7 s)
+00:20:50  INFO      DONE   male / blocks  (95.5 s)
+00:21:21  INFO      DONE   male / chronic  (30.6 s)
+00:27:21  INFO      DONE   female / icd  (359.8 s)
+00:28:57  INFO      DONE   female / blocks  (96.9 s)
+00:29:28  INFO      DONE   female / chronic  (30.7 s)
+00:29:50  INFO      SUMMARY
+00:29:50  INFO      All done.
+  Done in 1006s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r15_wl120_nw20_w10_p2.0_q0.5
+
+======== RUN 16/21 [combined]: wl=120 nw=20 w=8 p=0.5 q=2.0 ========
+00:35:31  INFO      DONE   male / icd  (339.9 s)
+00:37:04  INFO      DONE   male / blocks  (92.1 s)
+00:37:34  INFO      DONE   male / chronic  (30.1 s)
+00:43:07  INFO      DONE   female / icd  (333.0 s)
+00:44:40  INFO      DONE   female / blocks  (92.8 s)
+00:45:10  INFO      DONE   female / chronic  (30.0 s)
+00:45:31  INFO      SUMMARY
+00:45:31  INFO      All done.
+  Done in 941s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r16_wl120_nw20_w8_p0.5_q2.0
+
+======== RUN 17/21 [combined]: wl=120 nw=20 w=12 p=0.5 q=2.0 ========
+00:51:40  INFO      DONE   male / icd  (367.5 s)
+00:53:18  INFO      DONE   male / blocks  (97.5 s)
+00:53:49  INFO      DONE   male / chronic  (31.0 s)
+00:59:48  INFO      DONE   female / icd  (359.0 s)
+01:01:26  INFO      DONE   female / blocks  (98.4 s)
+01:01:58  INFO      DONE   female / chronic  (31.4 s)
+01:02:20  INFO      SUMMARY
+01:02:20  INFO      All done.
+  Done in 1009s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r17_wl120_nw20_w12_p0.5_q2.0
+
+======== RUN 18/21 [combined]: wl=120 nw=20 w=8 p=2.0 q=0.5 ========
+01:08:11  INFO      DONE   male / icd  (349.3 s)
+01:09:43  INFO      DONE   male / blocks  (91.5 s)
+01:10:12  INFO      DONE   male / chronic  (29.6 s)
+01:15:59  INFO      DONE   female / icd  (347.0 s)
+01:17:32  INFO      DONE   female / blocks  (93.0 s)
+01:18:02  INFO      DONE   female / chronic  (30.1 s)
+01:18:25  INFO      SUMMARY
+01:18:25  INFO      All done.
+  Done in 965s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r18_wl120_nw20_w8_p2.0_q0.5
+
+======== RUN 19/21 [combined]: wl=120 nw=20 w=12 p=2.0 q=0.5 ========
+01:24:53  INFO      DONE   male / icd  (386.3 s)
+01:26:32  INFO      DONE   male / blocks  (99.0 s)
+01:27:03  INFO      DONE   male / chronic  (30.9 s)
+01:33:22  INFO      DONE   female / icd  (379.4 s)
+01:35:03  INFO      DONE   female / blocks  (101.0 s)
+01:35:34  INFO      DONE   female / chronic  (31.3 s)
+01:35:56  INFO      SUMMARY
+01:35:56  INFO      All done.
+  Done in 1052s — saved to /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/details/r19_wl120_nw20_w12_p2.0_q0.5
+
+======== ALL 21 RUNS COMPLETE ========
+Results: /Users/antemilicevic/Documents/Project/final-repo/sensitivity_results/all_results.csv

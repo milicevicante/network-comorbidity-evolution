@@ -1,0 +1,21 @@
+node,mean_drift
+Urinary tract calculi,2.2023035883903503
+Urinary incontinence,2.0288493633270264
+Severe hearing loss,1.3766247313469648
+Dizziness,1.3202347612629335
+Severe vision reduction,1.2712834955503542
+Chronic cholecystitis/gallstones,1.2234148879845936
+Hemorrhoids,1.1863311814765136
+Prostatic hyperplasia,1.178620869293809
+Migraine/chronic headache,1.1648012014726798
+Sexual dysfunction,1.068785942780475
+Insomnia,1.0460437138875325
+Asthma/COPD,1.0228374153375626
+Chronic gastritis/GERD,0.9517300563553969
+Chronic low back pain,0.9293897170573473
+Intestinal diverticulosis,0.9243786024550597
+Psoriasis,0.9038906327138344
+Thyroid diseases,0.8862599215159813
+Hyperuricemia/gout,0.8822157879670461
+Chronic ischemic heart disease,0.8687345633904139
+Rheumatoid arthritis/chronic polyarthritis,0.8686578692868352

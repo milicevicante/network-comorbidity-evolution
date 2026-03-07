@@ -1,277 +1,277 @@
 age_from,age_to,node,knn_stability
-2,3,Urinary incontinence,0.28205128205128205
-2,3,Liver disease,0.5151515151515151
-2,3,Urinary tract calculi,0.5151515151515151
-2,3,Anemia,0.5625
-2,3,Chronic low back pain,0.3888888888888889
-2,3,Insomnia,0.35135135135135137
-2,3,Cancer,0.28205128205128205
-2,3,Dizziness,0.5151515151515151
-2,3,Lower limb varicosis,0.5151515151515151
-2,3,Gynecological problems,0.28205128205128205
-2,3,Chronic ischemic heart disease,0.35135135135135137
-2,3,Hypotension,0.3888888888888889
-2,3,Dementia,0.25
-2,3,Prostatic hyperplasia,0.47058823529411764
-2,3,Rheumatoid arthritis/chronic polyarthritis,0.5151515151515151
-2,3,Asthma/COPD,0.5151515151515151
-2,3,Osteoporosis,0.3157894736842105
-2,3,Somatoform disorders,0.5625
-2,3,Depression,0.5625
+2,3,Severe vision reduction,0.3888888888888889
+2,3,Dizziness,0.5625
+2,3,Cardiac arrhythmias,0.42857142857142855
+2,3,Tobacco abuse,0.47058823529411764
+2,3,Depression,0.5151515151515151
+2,3,Osteoporosis,0.35135135135135137
+2,3,Hypotension,0.42857142857142855
+2,3,Cardiac valve disorders,0.3157894736842105
+2,3,Rheumatoid arthritis/chronic polyarthritis,0.47058823529411764
+2,3,Intestinal diverticulosis,0.3888888888888889
+2,3,Joint arthrosis,0.3888888888888889
+2,3,Hypertension,0.42857142857142855
+2,3,Dementia,0.28205128205128205
+2,3,Asthma/COPD,0.47058823529411764
+2,3,Lower limb varicosis,0.3888888888888889
+2,3,Atherosclerosis/PAOD,0.3888888888888889
+2,3,Anemia,0.3888888888888889
 2,3,Chronic gastritis/GERD,0.5625
-2,3,Lipid metabolism disorders8,0.5151515151515151
-2,3,Diabetes mellitus,0.5151515151515151
-2,3,Obesity,0.5625
+2,3,Liver disease,0.47058823529411764
+2,3,Thyroid diseases,0.5151515151515151
+2,3,Lipid metabolism disorders8,0.42857142857142855
+2,3,Somatoform disorders,0.5625
+2,3,Neuropathies,0.3888888888888889
+2,3,Cardiac insufficiency,0.3157894736842105
+2,3,Chronic cholecystitis/gallstones,0.47058823529411764
+2,3,Hyperuricemia/gout,0.25
+2,3,Sexual dysfunction,0.25
+2,3,Chronic ischemic heart disease,0.3888888888888889
+2,3,Chronic low back pain,0.3157894736842105
+2,3,Prostatic hyperplasia,0.3157894736842105
+2,3,Gynecological problems,0.25
 2,3,Renal insufficiency,0.28205128205128205
 2,3,Severe hearing loss,0.3157894736842105
-2,3,Migraine/chronic headache,0.5151515151515151
-2,3,Hyperuricemia/gout,0.35135135135135137
-2,3,Severe vision reduction,0.42857142857142855
-2,3,Anxiety,0.6129032258064516
-2,3,Atherosclerosis/PAOD,0.35135135135135137
-2,3,Joint arthrosis,0.3157894736842105
-2,3,Neuropathies,0.3888888888888889
-2,3,Hypertension,0.5625
-2,3,Cardiac arrhythmias,0.42857142857142855
-2,3,Tobacco abuse,0.5151515151515151
+2,3,Insomnia,0.35135135135135137
+2,3,Diabetes mellitus,0.5151515151515151
+2,3,Psoriasis,0.5151515151515151
+2,3,Cancer,0.47058823529411764
+2,3,Cerebral ischemia/chronic stroke,0.47058823529411764
+2,3,Urinary tract calculi,0.5625
+2,3,Urinary incontinence,0.25
+2,3,Anxiety,0.5625
 2,3,Parkinson’s disease,0.42857142857142855
-2,3,Sexual dysfunction,0.28205128205128205
-2,3,Cerebral ischemia/chronic stroke,0.35135135135135137
-2,3,Psoriasis,0.47058823529411764
 2,3,Allergy,0.42857142857142855
-2,3,Cardiac insufficiency,0.42857142857142855
-2,3,Thyroid diseases,0.5625
-2,3,Intestinal diverticulosis,0.42857142857142855
-2,3,Chronic cholecystitis/gallstones,0.5625
+2,3,Obesity,0.5151515151515151
+2,3,Migraine/chronic headache,0.6129032258064516
 2,3,Hemorrhoids,0.25
-2,3,Cardiac valve disorders,0.28205128205128205
-3,4,Urinary incontinence,0.6666666666666666
-3,4,Liver disease,0.6129032258064516
-3,4,Urinary tract calculi,0.6129032258064516
-3,4,Anemia,0.6666666666666666
-3,4,Chronic low back pain,0.28205128205128205
-3,4,Insomnia,0.6129032258064516
-3,4,Cancer,0.42857142857142855
-3,4,Dizziness,0.3157894736842105
-3,4,Lower limb varicosis,0.5625
-3,4,Gynecological problems,0.3157894736842105
-3,4,Chronic ischemic heart disease,0.47058823529411764
-3,4,Hypotension,0.5151515151515151
-3,4,Dementia,0.3888888888888889
-3,4,Prostatic hyperplasia,0.42857142857142855
-3,4,Rheumatoid arthritis/chronic polyarthritis,0.28205128205128205
-3,4,Asthma/COPD,0.6129032258064516
-3,4,Osteoporosis,0.3888888888888889
-3,4,Somatoform disorders,0.6129032258064516
-3,4,Depression,0.6129032258064516
-3,4,Chronic gastritis/GERD,0.6666666666666666
-3,4,Lipid metabolism disorders8,0.6129032258064516
-3,4,Diabetes mellitus,0.6129032258064516
-3,4,Obesity,0.6129032258064516
-3,4,Renal insufficiency,0.6666666666666666
-3,4,Severe hearing loss,0.25
-3,4,Migraine/chronic headache,0.5625
-3,4,Hyperuricemia/gout,0.3888888888888889
-3,4,Severe vision reduction,0.35135135135135137
-3,4,Anxiety,0.6129032258064516
-3,4,Atherosclerosis/PAOD,0.6129032258064516
-3,4,Joint arthrosis,0.42857142857142855
-3,4,Neuropathies,0.28205128205128205
-3,4,Hypertension,0.6666666666666666
-3,4,Cardiac arrhythmias,0.13636363636363635
+3,4,Severe vision reduction,0.19047619047619047
+3,4,Dizziness,0.47058823529411764
+3,4,Cardiac arrhythmias,0.25
 3,4,Tobacco abuse,0.6129032258064516
-3,4,Parkinson’s disease,0.47058823529411764
-3,4,Sexual dysfunction,0.35135135135135137
-3,4,Cerebral ischemia/chronic stroke,0.6129032258064516
-3,4,Psoriasis,0.47058823529411764
-3,4,Allergy,0.42857142857142855
+3,4,Depression,0.5625
+3,4,Osteoporosis,0.3888888888888889
+3,4,Hypotension,0.6666666666666666
+3,4,Cardiac valve disorders,0.3157894736842105
+3,4,Rheumatoid arthritis/chronic polyarthritis,0.35135135135135137
+3,4,Intestinal diverticulosis,0.25
+3,4,Joint arthrosis,0.42857142857142855
+3,4,Hypertension,0.6129032258064516
+3,4,Dementia,0.35135135135135137
+3,4,Asthma/COPD,0.6129032258064516
+3,4,Lower limb varicosis,0.5151515151515151
+3,4,Atherosclerosis/PAOD,0.6666666666666666
+3,4,Anemia,0.6666666666666666
+3,4,Chronic gastritis/GERD,0.6129032258064516
+3,4,Liver disease,0.6666666666666666
+3,4,Thyroid diseases,0.6666666666666666
+3,4,Lipid metabolism disorders8,0.5625
+3,4,Somatoform disorders,0.5625
+3,4,Neuropathies,0.3157894736842105
 3,4,Cardiac insufficiency,0.42857142857142855
-3,4,Thyroid diseases,0.6129032258064516
-3,4,Intestinal diverticulosis,0.28205128205128205
 3,4,Chronic cholecystitis/gallstones,0.6129032258064516
-3,4,Hemorrhoids,0.42857142857142855
-3,4,Cardiac valve disorders,0.35135135135135137
-4,5,Urinary incontinence,0.7241379310344828
-4,5,Liver disease,0.7241379310344828
-4,5,Urinary tract calculi,0.7241379310344828
-4,5,Anemia,0.7241379310344828
-4,5,Chronic low back pain,0.7241379310344828
-4,5,Insomnia,0.7857142857142857
-4,5,Cancer,0.21951219512195122
+3,4,Hyperuricemia/gout,0.47058823529411764
+3,4,Sexual dysfunction,0.3157894736842105
+3,4,Chronic ischemic heart disease,0.28205128205128205
+3,4,Chronic low back pain,0.35135135135135137
+3,4,Prostatic hyperplasia,0.3157894736842105
+3,4,Gynecological problems,0.35135135135135137
+3,4,Renal insufficiency,0.6129032258064516
+3,4,Severe hearing loss,0.25
+3,4,Insomnia,0.6666666666666666
+3,4,Diabetes mellitus,0.6129032258064516
+3,4,Psoriasis,0.35135135135135137
+3,4,Cancer,0.47058823529411764
+3,4,Cerebral ischemia/chronic stroke,0.6666666666666666
+3,4,Urinary tract calculi,0.6129032258064516
+3,4,Urinary incontinence,0.6129032258064516
+3,4,Anxiety,0.6129032258064516
+3,4,Parkinson’s disease,0.28205128205128205
+3,4,Allergy,0.42857142857142855
+3,4,Obesity,0.6129032258064516
+3,4,Migraine/chronic headache,0.5625
+3,4,Hemorrhoids,0.3888888888888889
+4,5,Severe vision reduction,0.7857142857142857
 4,5,Dizziness,0.7241379310344828
-4,5,Lower limb varicosis,0.3888888888888889
-4,5,Gynecological problems,0.28205128205128205
-4,5,Chronic ischemic heart disease,0.7241379310344828
-4,5,Hypotension,0.6129032258064516
-4,5,Dementia,0.35135135135135137
-4,5,Prostatic hyperplasia,0.35135135135135137
-4,5,Rheumatoid arthritis/chronic polyarthritis,0.7241379310344828
-4,5,Asthma/COPD,0.7241379310344828
-4,5,Osteoporosis,0.28205128205128205
-4,5,Somatoform disorders,0.7241379310344828
-4,5,Depression,0.7241379310344828
-4,5,Chronic gastritis/GERD,0.7241379310344828
-4,5,Lipid metabolism disorders8,0.7241379310344828
-4,5,Diabetes mellitus,0.7241379310344828
-4,5,Obesity,0.7857142857142857
-4,5,Renal insufficiency,0.7857142857142857
-4,5,Severe hearing loss,0.6666666666666666
-4,5,Migraine/chronic headache,0.7857142857142857
-4,5,Hyperuricemia/gout,0.7857142857142857
-4,5,Severe vision reduction,0.7241379310344828
-4,5,Anxiety,0.7241379310344828
-4,5,Atherosclerosis/PAOD,0.7241379310344828
-4,5,Joint arthrosis,0.6666666666666666
-4,5,Neuropathies,0.47058823529411764
-4,5,Hypertension,0.7241379310344828
-4,5,Cardiac arrhythmias,0.7241379310344828
+4,5,Cardiac arrhythmias,0.7857142857142857
 4,5,Tobacco abuse,0.7857142857142857
-4,5,Parkinson’s disease,0.3888888888888889
-4,5,Sexual dysfunction,0.47058823529411764
-4,5,Cerebral ischemia/chronic stroke,0.7857142857142857
-4,5,Psoriasis,0.5151515151515151
-4,5,Allergy,0.5151515151515151
-4,5,Cardiac insufficiency,0.5625
+4,5,Depression,0.7241379310344828
+4,5,Osteoporosis,0.47058823529411764
+4,5,Hypotension,0.7241379310344828
+4,5,Cardiac valve disorders,0.28205128205128205
+4,5,Rheumatoid arthritis/chronic polyarthritis,0.7241379310344828
+4,5,Intestinal diverticulosis,0.6129032258064516
+4,5,Joint arthrosis,0.7241379310344828
+4,5,Hypertension,0.7857142857142857
+4,5,Dementia,0.28205128205128205
+4,5,Asthma/COPD,0.7241379310344828
+4,5,Lower limb varicosis,0.35135135135135137
+4,5,Atherosclerosis/PAOD,0.7857142857142857
+4,5,Anemia,0.7241379310344828
+4,5,Chronic gastritis/GERD,0.6666666666666666
+4,5,Liver disease,0.7241379310344828
 4,5,Thyroid diseases,0.6129032258064516
-4,5,Intestinal diverticulosis,0.6666666666666666
+4,5,Lipid metabolism disorders8,0.7857142857142857
+4,5,Somatoform disorders,0.6129032258064516
+4,5,Neuropathies,0.3888888888888889
+4,5,Cardiac insufficiency,0.5625
 4,5,Chronic cholecystitis/gallstones,0.6129032258064516
-4,5,Hemorrhoids,0.25
-4,5,Cardiac valve disorders,0.3157894736842105
-5,6,Urinary incontinence,0.7241379310344828
-5,6,Liver disease,0.7241379310344828
-5,6,Urinary tract calculi,0.6666666666666666
-5,6,Anemia,0.7857142857142857
-5,6,Chronic low back pain,0.7241379310344828
-5,6,Insomnia,0.7241379310344828
-5,6,Cancer,0.5151515151515151
-5,6,Dizziness,0.5151515151515151
-5,6,Lower limb varicosis,0.28205128205128205
-5,6,Gynecological problems,0.3888888888888889
-5,6,Chronic ischemic heart disease,0.7857142857142857
-5,6,Hypotension,0.6666666666666666
-5,6,Dementia,0.5625
-5,6,Prostatic hyperplasia,0.28205128205128205
+4,5,Hyperuricemia/gout,0.7241379310344828
+4,5,Sexual dysfunction,0.3888888888888889
+4,5,Chronic ischemic heart disease,0.7857142857142857
+4,5,Chronic low back pain,0.6666666666666666
+4,5,Prostatic hyperplasia,0.3157894736842105
+4,5,Gynecological problems,0.25
+4,5,Renal insufficiency,0.7241379310344828
+4,5,Severe hearing loss,0.7241379310344828
+4,5,Insomnia,0.7857142857142857
+4,5,Diabetes mellitus,0.7857142857142857
+4,5,Psoriasis,0.5625
+4,5,Cancer,0.35135135135135137
+4,5,Cerebral ischemia/chronic stroke,0.7857142857142857
+4,5,Urinary tract calculi,0.6666666666666666
+4,5,Urinary incontinence,0.7241379310344828
+4,5,Anxiety,0.6666666666666666
+4,5,Parkinson’s disease,0.28205128205128205
+4,5,Allergy,0.42857142857142855
+4,5,Obesity,0.7241379310344828
+4,5,Migraine/chronic headache,0.7857142857142857
+4,5,Hemorrhoids,0.28205128205128205
+5,6,Severe vision reduction,0.7241379310344828
+5,6,Dizziness,0.6129032258064516
+5,6,Cardiac arrhythmias,0.9230769230769231
+5,6,Tobacco abuse,0.8518518518518519
+5,6,Depression,0.7857142857142857
+5,6,Osteoporosis,0.5625
+5,6,Hypotension,0.7857142857142857
+5,6,Cardiac valve disorders,0.8518518518518519
 5,6,Rheumatoid arthritis/chronic polyarthritis,0.6666666666666666
+5,6,Intestinal diverticulosis,0.7241379310344828
+5,6,Joint arthrosis,0.7857142857142857
+5,6,Hypertension,0.9230769230769231
+5,6,Dementia,0.5625
 5,6,Asthma/COPD,0.7857142857142857
-5,6,Osteoporosis,0.35135135135135137
-5,6,Somatoform disorders,0.7241379310344828
-5,6,Depression,0.6666666666666666
-5,6,Chronic gastritis/GERD,0.6666666666666666
-5,6,Lipid metabolism disorders8,0.8518518518518519
-5,6,Diabetes mellitus,0.8518518518518519
-5,6,Obesity,0.7241379310344828
-5,6,Renal insufficiency,0.7857142857142857
-5,6,Severe hearing loss,0.5151515151515151
-5,6,Migraine/chronic headache,0.5625
-5,6,Hyperuricemia/gout,0.7241379310344828
-5,6,Severe vision reduction,0.8518518518518519
-5,6,Anxiety,0.7241379310344828
-5,6,Atherosclerosis/PAOD,0.7241379310344828
-5,6,Joint arthrosis,0.6129032258064516
-5,6,Neuropathies,0.6129032258064516
-5,6,Hypertension,0.7241379310344828
-5,6,Cardiac arrhythmias,0.8518518518518519
-5,6,Tobacco abuse,0.7241379310344828
-5,6,Parkinson’s disease,0.5151515151515151
-5,6,Sexual dysfunction,0.35135135135135137
+5,6,Lower limb varicosis,0.35135135135135137
+5,6,Atherosclerosis/PAOD,0.9230769230769231
+5,6,Anemia,0.7241379310344828
+5,6,Chronic gastritis/GERD,0.8518518518518519
+5,6,Liver disease,0.8518518518518519
+5,6,Thyroid diseases,0.7241379310344828
+5,6,Lipid metabolism disorders8,0.7857142857142857
+5,6,Somatoform disorders,0.7857142857142857
+5,6,Neuropathies,0.3888888888888889
+5,6,Cardiac insufficiency,0.7857142857142857
+5,6,Chronic cholecystitis/gallstones,0.8518518518518519
+5,6,Hyperuricemia/gout,0.8518518518518519
+5,6,Sexual dysfunction,0.28205128205128205
+5,6,Chronic ischemic heart disease,0.8518518518518519
+5,6,Chronic low back pain,0.6666666666666666
+5,6,Prostatic hyperplasia,0.35135135135135137
+5,6,Gynecological problems,0.5151515151515151
+5,6,Renal insufficiency,0.8518518518518519
+5,6,Severe hearing loss,0.6129032258064516
+5,6,Insomnia,0.7241379310344828
+5,6,Diabetes mellitus,0.7857142857142857
+5,6,Psoriasis,0.7857142857142857
+5,6,Cancer,0.5151515151515151
 5,6,Cerebral ischemia/chronic stroke,0.7857142857142857
-5,6,Psoriasis,0.7241379310344828
-5,6,Allergy,0.6129032258064516
-5,6,Cardiac insufficiency,0.7241379310344828
-5,6,Thyroid diseases,0.7857142857142857
-5,6,Intestinal diverticulosis,0.5151515151515151
-5,6,Chronic cholecystitis/gallstones,0.6129032258064516
-5,6,Hemorrhoids,0.5151515151515151
-5,6,Cardiac valve disorders,0.7857142857142857
-6,7,Urinary incontinence,0.5625
-6,7,Liver disease,0.5625
-6,7,Urinary tract calculi,0.47058823529411764
-6,7,Anemia,0.6666666666666666
-6,7,Chronic low back pain,0.6129032258064516
-6,7,Insomnia,0.6129032258064516
-6,7,Cancer,0.6129032258064516
+5,6,Urinary tract calculi,0.7241379310344828
+5,6,Urinary incontinence,0.7857142857142857
+5,6,Anxiety,0.7241379310344828
+5,6,Parkinson’s disease,0.3888888888888889
+5,6,Allergy,0.7857142857142857
+5,6,Obesity,0.7857142857142857
+5,6,Migraine/chronic headache,0.6666666666666666
+5,6,Hemorrhoids,0.7241379310344828
+6,7,Severe vision reduction,0.25
 6,7,Dizziness,0.5625
-6,7,Lower limb varicosis,0.5151515151515151
-6,7,Gynecological problems,0.42857142857142855
-6,7,Chronic ischemic heart disease,0.6129032258064516
-6,7,Hypotension,0.5625
-6,7,Dementia,0.5625
-6,7,Prostatic hyperplasia,0.35135135135135137
-6,7,Rheumatoid arthritis/chronic polyarthritis,0.5625
-6,7,Asthma/COPD,0.6666666666666666
-6,7,Osteoporosis,0.5625
-6,7,Somatoform disorders,0.6129032258064516
-6,7,Depression,0.5151515151515151
-6,7,Chronic gastritis/GERD,0.5151515151515151
-6,7,Lipid metabolism disorders8,0.6129032258064516
-6,7,Diabetes mellitus,0.6666666666666666
-6,7,Obesity,0.7241379310344828
-6,7,Renal insufficiency,0.6666666666666666
-6,7,Severe hearing loss,0.6129032258064516
-6,7,Migraine/chronic headache,0.5625
-6,7,Hyperuricemia/gout,0.7241379310344828
-6,7,Severe vision reduction,0.21951219512195122
-6,7,Anxiety,0.5151515151515151
-6,7,Atherosclerosis/PAOD,0.6666666666666666
-6,7,Joint arthrosis,0.6129032258064516
-6,7,Neuropathies,0.5151515151515151
-6,7,Hypertension,0.6666666666666666
-6,7,Cardiac arrhythmias,0.6666666666666666
-6,7,Tobacco abuse,0.6129032258064516
-6,7,Parkinson’s disease,0.47058823529411764
-6,7,Sexual dysfunction,0.47058823529411764
-6,7,Cerebral ischemia/chronic stroke,0.6129032258064516
-6,7,Psoriasis,0.6129032258064516
-6,7,Allergy,0.5625
-6,7,Cardiac insufficiency,0.6129032258064516
-6,7,Thyroid diseases,0.7857142857142857
-6,7,Intestinal diverticulosis,0.47058823529411764
-6,7,Chronic cholecystitis/gallstones,0.5625
-6,7,Hemorrhoids,0.5151515151515151
+6,7,Cardiac arrhythmias,0.7241379310344828
+6,7,Tobacco abuse,0.7857142857142857
+6,7,Depression,0.7857142857142857
+6,7,Osteoporosis,0.6129032258064516
+6,7,Hypotension,0.6666666666666666
 6,7,Cardiac valve disorders,0.7241379310344828
-7,8,Urinary incontinence,0.47058823529411764
-7,8,Liver disease,0.42857142857142855
-7,8,Urinary tract calculi,0.3888888888888889
-7,8,Anemia,0.6129032258064516
-7,8,Chronic low back pain,0.5625
-7,8,Insomnia,0.42857142857142855
-7,8,Cancer,0.5625
-7,8,Dizziness,0.5151515151515151
-7,8,Lower limb varicosis,0.5625
-7,8,Gynecological problems,0.5625
-7,8,Chronic ischemic heart disease,0.7857142857142857
-7,8,Hypotension,0.6666666666666666
-7,8,Dementia,0.6666666666666666
-7,8,Prostatic hyperplasia,0.3888888888888889
-7,8,Rheumatoid arthritis/chronic polyarthritis,0.5625
-7,8,Asthma/COPD,0.7857142857142857
-7,8,Osteoporosis,0.5151515151515151
-7,8,Somatoform disorders,0.47058823529411764
-7,8,Depression,0.5151515151515151
-7,8,Chronic gastritis/GERD,0.3888888888888889
-7,8,Lipid metabolism disorders8,0.7241379310344828
-7,8,Diabetes mellitus,0.7857142857142857
-7,8,Obesity,0.5625
-7,8,Renal insufficiency,0.6666666666666666
-7,8,Severe hearing loss,0.3888888888888889
-7,8,Migraine/chronic headache,0.5625
-7,8,Hyperuricemia/gout,0.5151515151515151
-7,8,Severe vision reduction,0.47058823529411764
-7,8,Anxiety,0.5151515151515151
-7,8,Atherosclerosis/PAOD,0.7241379310344828
-7,8,Joint arthrosis,0.5625
-7,8,Neuropathies,0.3888888888888889
-7,8,Hypertension,0.6666666666666666
+6,7,Rheumatoid arthritis/chronic polyarthritis,0.6666666666666666
+6,7,Intestinal diverticulosis,0.6129032258064516
+6,7,Joint arthrosis,0.6129032258064516
+6,7,Hypertension,0.7241379310344828
+6,7,Dementia,0.5625
+6,7,Asthma/COPD,0.7857142857142857
+6,7,Lower limb varicosis,0.35135135135135137
+6,7,Atherosclerosis/PAOD,0.6666666666666666
+6,7,Anemia,0.6129032258064516
+6,7,Chronic gastritis/GERD,0.6666666666666666
+6,7,Liver disease,0.6666666666666666
+6,7,Thyroid diseases,0.7857142857142857
+6,7,Lipid metabolism disorders8,0.7241379310344828
+6,7,Somatoform disorders,0.6129032258064516
+6,7,Neuropathies,0.3888888888888889
+6,7,Cardiac insufficiency,0.6666666666666666
+6,7,Chronic cholecystitis/gallstones,0.7241379310344828
+6,7,Hyperuricemia/gout,0.7241379310344828
+6,7,Sexual dysfunction,0.5151515151515151
+6,7,Chronic ischemic heart disease,0.6666666666666666
+6,7,Chronic low back pain,0.6129032258064516
+6,7,Prostatic hyperplasia,0.42857142857142855
+6,7,Gynecological problems,0.5151515151515151
+6,7,Renal insufficiency,0.7241379310344828
+6,7,Severe hearing loss,0.6666666666666666
+6,7,Insomnia,0.6666666666666666
+6,7,Diabetes mellitus,0.6666666666666666
+6,7,Psoriasis,0.7241379310344828
+6,7,Cancer,0.5151515151515151
+6,7,Cerebral ischemia/chronic stroke,0.6129032258064516
+6,7,Urinary tract calculi,0.5151515151515151
+6,7,Urinary incontinence,0.5625
+6,7,Anxiety,0.8518518518518519
+6,7,Parkinson’s disease,0.7857142857142857
+6,7,Allergy,0.7241379310344828
+6,7,Obesity,0.8518518518518519
+6,7,Migraine/chronic headache,0.6666666666666666
+6,7,Hemorrhoids,0.7857142857142857
+7,8,Severe vision reduction,0.35135135135135137
+7,8,Dizziness,0.5625
 7,8,Cardiac arrhythmias,0.6666666666666666
-7,8,Tobacco abuse,0.6666666666666666
-7,8,Parkinson’s disease,0.6666666666666666
-7,8,Sexual dysfunction,0.42857142857142855
-7,8,Cerebral ischemia/chronic stroke,0.6666666666666666
-7,8,Psoriasis,0.5625
-7,8,Allergy,0.5151515151515151
-7,8,Cardiac insufficiency,0.47058823529411764
+7,8,Tobacco abuse,0.6129032258064516
+7,8,Depression,0.6129032258064516
+7,8,Osteoporosis,0.6129032258064516
+7,8,Hypotension,0.6129032258064516
+7,8,Cardiac valve disorders,0.7241379310344828
+7,8,Rheumatoid arthritis/chronic polyarthritis,0.6666666666666666
+7,8,Intestinal diverticulosis,0.5625
+7,8,Joint arthrosis,0.6666666666666666
+7,8,Hypertension,0.6666666666666666
+7,8,Dementia,0.5625
+7,8,Asthma/COPD,0.6666666666666666
+7,8,Lower limb varicosis,0.7241379310344828
+7,8,Atherosclerosis/PAOD,0.7241379310344828
+7,8,Anemia,0.5625
+7,8,Chronic gastritis/GERD,0.7241379310344828
+7,8,Liver disease,0.7857142857142857
 7,8,Thyroid diseases,0.6666666666666666
-7,8,Intestinal diverticulosis,0.47058823529411764
-7,8,Chronic cholecystitis/gallstones,0.47058823529411764
-7,8,Hemorrhoids,0.5151515151515151
-7,8,Cardiac valve disorders,0.5625
+7,8,Lipid metabolism disorders8,0.7241379310344828
+7,8,Somatoform disorders,0.6666666666666666
+7,8,Neuropathies,0.6666666666666666
+7,8,Cardiac insufficiency,0.6129032258064516
+7,8,Chronic cholecystitis/gallstones,0.6129032258064516
+7,8,Hyperuricemia/gout,0.7857142857142857
+7,8,Sexual dysfunction,0.5151515151515151
+7,8,Chronic ischemic heart disease,0.7241379310344828
+7,8,Chronic low back pain,0.6666666666666666
+7,8,Prostatic hyperplasia,0.42857142857142855
+7,8,Gynecological problems,0.47058823529411764
+7,8,Renal insufficiency,0.7857142857142857
+7,8,Severe hearing loss,0.6666666666666666
+7,8,Insomnia,0.6666666666666666
+7,8,Diabetes mellitus,0.6666666666666666
+7,8,Psoriasis,0.7241379310344828
+7,8,Cancer,0.5625
+7,8,Cerebral ischemia/chronic stroke,0.7241379310344828
+7,8,Urinary tract calculi,0.47058823529411764
+7,8,Urinary incontinence,0.47058823529411764
+7,8,Anxiety,0.6129032258064516
+7,8,Parkinson’s disease,0.6666666666666666
+7,8,Allergy,0.7241379310344828
+7,8,Obesity,0.7241379310344828
+7,8,Migraine/chronic headache,0.6666666666666666
+7,8,Hemorrhoids,0.5625

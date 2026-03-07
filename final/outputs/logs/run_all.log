@@ -1,161 +1,313 @@
-2026-02-28 22:40:34,085  INFO      Pipeline starting  (force=False, robustness=False, reproducible=False, threshold_robustness=False)
-2026-02-28 22:40:34,085  INFO      Data root: /Users/antemilicevic/Documents/Project/code/Data
-2026-02-28 22:40:34,085  INFO      Output root: /Users/antemilicevic/Documents/Project/code/csh-tuwien-project/final/outputs
-2026-02-28 22:40:34,085  INFO      ============================================================
-2026-02-28 22:40:34,085  INFO      START  male / icd
-2026-02-28 22:40:34,085  INFO      ============================================================
-2026-02-28 22:40:34,567  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
-2026-02-28 22:40:34,704  DEBUG       [B] Loaded cached embeddings age 1
-2026-02-28 22:40:34,722  DEBUG       [B] Loaded cached embeddings age 2
-2026-02-28 22:40:34,741  DEBUG       [B] Loaded cached embeddings age 3
-2026-02-28 22:40:34,760  DEBUG       [B] Loaded cached embeddings age 4
-2026-02-28 22:40:34,778  DEBUG       [B] Loaded cached embeddings age 5
-2026-02-28 22:40:34,797  DEBUG       [B] Loaded cached embeddings age 6
-2026-02-28 22:40:34,816  DEBUG       [B] Loaded cached embeddings age 7
-2026-02-28 22:40:34,834  DEBUG       [B] Loaded cached embeddings age 8
-2026-02-28 22:40:34,834  INFO        [C] Saved PCA plots
-2026-02-28 22:40:34,981  INFO        [D] Loaded cached aligned embeddings (ref=1)
-2026-02-28 22:40:35,128  INFO        [D] Loaded cached non-isolate aligned embeddings
-2026-02-28 22:40:35,131  INFO        [E] Loaded cached drift.csv
-2026-02-28 22:40:35,133  INFO        [E] Loaded cached stability.csv
-2026-02-28 22:40:35,135  INFO        [E] Metrics plots saved
-2026-02-28 22:40:35,135  INFO        [F] Loaded cached structure_preservation.csv
-2026-02-28 22:40:35,137  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.505 (expected ~0.5 under null)
-2026-02-28 22:40:35,141  INFO        VERIFY: all output checks passed
-2026-02-28 22:40:35,141  INFO      DONE   male / icd  (1.1 s)
-2026-02-28 22:40:35,143  INFO      ============================================================
-2026-02-28 22:40:35,143  INFO      START  male / blocks
-2026-02-28 22:40:35,143  INFO      ============================================================
-2026-02-28 22:40:35,229  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
-2026-02-28 22:40:35,239  DEBUG       [B] Loaded cached embeddings age 1
-2026-02-28 22:40:35,246  DEBUG       [B] Loaded cached embeddings age 2
-2026-02-28 22:40:35,253  DEBUG       [B] Loaded cached embeddings age 3
-2026-02-28 22:40:35,259  DEBUG       [B] Loaded cached embeddings age 4
-2026-02-28 22:40:35,265  DEBUG       [B] Loaded cached embeddings age 5
-2026-02-28 22:40:35,272  DEBUG       [B] Loaded cached embeddings age 6
-2026-02-28 22:40:35,278  DEBUG       [B] Loaded cached embeddings age 7
-2026-02-28 22:40:35,284  DEBUG       [B] Loaded cached embeddings age 8
-2026-02-28 22:40:35,284  INFO        [C] Saved PCA plots
-2026-02-28 22:40:35,334  INFO        [D] Loaded cached aligned embeddings (ref=1)
-2026-02-28 22:40:35,383  INFO        [D] Loaded cached non-isolate aligned embeddings
-2026-02-28 22:40:35,384  INFO        [E] Loaded cached drift.csv
-2026-02-28 22:40:35,385  INFO        [E] Loaded cached stability.csv
-2026-02-28 22:40:35,387  INFO        [E] Metrics plots saved
-2026-02-28 22:40:35,387  INFO        [F] Loaded cached structure_preservation.csv
-2026-02-28 22:40:35,389  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.385 (expected ~0.5 under null)
-2026-02-28 22:40:35,393  INFO        VERIFY: all output checks passed
-2026-02-28 22:40:35,393  INFO      DONE   male / blocks  (0.3 s)
-2026-02-28 22:40:35,394  INFO      ============================================================
-2026-02-28 22:40:35,394  INFO      START  male / chronic
-2026-02-28 22:40:35,394  INFO      ============================================================
-2026-02-28 22:40:35,408  WARNING     Graph missing: sex=male variant=chronic age=1
-2026-02-28 22:40:35,431  INFO        [A] Loaded 7 graphs, saved graph_stats.csv
-2026-02-28 22:40:35,431  WARNING     Reference age 1 unavailable, falling back to 2
-2026-02-28 22:40:35,440  DEBUG       [B] Loaded cached embeddings age 2
-2026-02-28 22:40:35,445  DEBUG       [B] Loaded cached embeddings age 3
-2026-02-28 22:40:35,450  DEBUG       [B] Loaded cached embeddings age 4
-2026-02-28 22:40:35,455  DEBUG       [B] Loaded cached embeddings age 5
-2026-02-28 22:40:35,460  DEBUG       [B] Loaded cached embeddings age 6
-2026-02-28 22:40:35,465  DEBUG       [B] Loaded cached embeddings age 7
-2026-02-28 22:40:35,470  DEBUG       [B] Loaded cached embeddings age 8
-2026-02-28 22:40:35,470  INFO        [C] Saved PCA plots
-2026-02-28 22:40:35,505  INFO        [D] Loaded cached aligned embeddings (ref=2)
-2026-02-28 22:40:35,541  INFO        [D] Loaded cached non-isolate aligned embeddings
-2026-02-28 22:40:35,542  INFO        [E] Loaded cached drift.csv
-2026-02-28 22:40:35,542  INFO        [E] Loaded cached stability.csv
-2026-02-28 22:40:35,544  INFO        [E] Metrics plots saved
-2026-02-28 22:40:35,544  INFO        [F] Loaded cached structure_preservation.csv
-2026-02-28 22:40:35,545  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.447 (expected ~0.5 under null)
-2026-02-28 22:40:35,550  INFO        VERIFY: all output checks passed
-2026-02-28 22:40:35,550  INFO      DONE   male / chronic  (0.2 s)
-2026-02-28 22:40:35,551  INFO      ============================================================
-2026-02-28 22:40:35,551  INFO      START  female / icd
-2026-02-28 22:40:35,551  INFO      ============================================================
-2026-02-28 22:40:36,007  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
-2026-02-28 22:40:36,028  DEBUG       [B] Loaded cached embeddings age 1
-2026-02-28 22:40:36,046  DEBUG       [B] Loaded cached embeddings age 2
-2026-02-28 22:40:36,065  DEBUG       [B] Loaded cached embeddings age 3
-2026-02-28 22:40:36,084  DEBUG       [B] Loaded cached embeddings age 4
-2026-02-28 22:40:36,103  DEBUG       [B] Loaded cached embeddings age 5
-2026-02-28 22:40:36,123  DEBUG       [B] Loaded cached embeddings age 6
-2026-02-28 22:40:36,141  DEBUG       [B] Loaded cached embeddings age 7
-2026-02-28 22:40:36,161  DEBUG       [B] Loaded cached embeddings age 8
-2026-02-28 22:40:36,161  INFO        [C] Saved PCA plots
-2026-02-28 22:40:36,313  INFO        [D] Loaded cached aligned embeddings (ref=1)
-2026-02-28 22:40:36,459  INFO        [D] Loaded cached non-isolate aligned embeddings
-2026-02-28 22:40:36,461  INFO        [E] Loaded cached drift.csv
-2026-02-28 22:40:36,464  INFO        [E] Loaded cached stability.csv
-2026-02-28 22:40:36,465  INFO        [E] Metrics plots saved
-2026-02-28 22:40:36,466  INFO        [F] Loaded cached structure_preservation.csv
-2026-02-28 22:40:36,467  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.493 (expected ~0.5 under null)
-2026-02-28 22:40:36,470  INFO        VERIFY: all output checks passed
-2026-02-28 22:40:36,471  INFO      DONE   female / icd  (0.9 s)
-2026-02-28 22:40:36,473  INFO      ============================================================
-2026-02-28 22:40:36,473  INFO      START  female / blocks
-2026-02-28 22:40:36,473  INFO      ============================================================
-2026-02-28 22:40:36,555  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
-2026-02-28 22:40:36,565  DEBUG       [B] Loaded cached embeddings age 1
-2026-02-28 22:40:36,572  DEBUG       [B] Loaded cached embeddings age 2
-2026-02-28 22:40:36,578  DEBUG       [B] Loaded cached embeddings age 3
-2026-02-28 22:40:36,584  DEBUG       [B] Loaded cached embeddings age 4
-2026-02-28 22:40:36,590  DEBUG       [B] Loaded cached embeddings age 5
-2026-02-28 22:40:36,597  DEBUG       [B] Loaded cached embeddings age 6
-2026-02-28 22:40:36,603  DEBUG       [B] Loaded cached embeddings age 7
-2026-02-28 22:40:36,610  DEBUG       [B] Loaded cached embeddings age 8
-2026-02-28 22:40:36,610  INFO        [C] Saved PCA plots
-2026-02-28 22:40:36,659  INFO        [D] Loaded cached aligned embeddings (ref=1)
-2026-02-28 22:40:36,709  INFO        [D] Loaded cached non-isolate aligned embeddings
-2026-02-28 22:40:36,710  INFO        [E] Loaded cached drift.csv
-2026-02-28 22:40:36,711  INFO        [E] Loaded cached stability.csv
-2026-02-28 22:40:36,712  INFO        [E] Metrics plots saved
-2026-02-28 22:40:36,713  INFO        [F] Loaded cached structure_preservation.csv
-2026-02-28 22:40:36,714  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.408 (expected ~0.5 under null)
-2026-02-28 22:40:36,718  INFO        VERIFY: all output checks passed
-2026-02-28 22:40:36,718  INFO      DONE   female / blocks  (0.2 s)
-2026-02-28 22:40:36,719  INFO      ============================================================
-2026-02-28 22:40:36,719  INFO      START  female / chronic
-2026-02-28 22:40:36,719  INFO      ============================================================
-2026-02-28 22:40:36,735  WARNING     Graph missing: sex=female variant=chronic age=1
-2026-02-28 22:40:36,759  INFO        [A] Loaded 7 graphs, saved graph_stats.csv
-2026-02-28 22:40:36,759  WARNING     Reference age 1 unavailable, falling back to 2
-2026-02-28 22:40:36,767  DEBUG       [B] Loaded cached embeddings age 2
-2026-02-28 22:40:36,773  DEBUG       [B] Loaded cached embeddings age 3
-2026-02-28 22:40:36,778  DEBUG       [B] Loaded cached embeddings age 4
-2026-02-28 22:40:36,783  DEBUG       [B] Loaded cached embeddings age 5
-2026-02-28 22:40:36,788  DEBUG       [B] Loaded cached embeddings age 6
-2026-02-28 22:40:36,794  DEBUG       [B] Loaded cached embeddings age 7
-2026-02-28 22:40:36,799  DEBUG       [B] Loaded cached embeddings age 8
-2026-02-28 22:40:36,800  INFO        [C] Saved PCA plots
-2026-02-28 22:40:36,839  INFO        [D] Loaded cached aligned embeddings (ref=2)
-2026-02-28 22:40:36,880  INFO        [D] Loaded cached non-isolate aligned embeddings
-2026-02-28 22:40:36,881  INFO        [E] Loaded cached drift.csv
-2026-02-28 22:40:36,882  INFO        [E] Loaded cached stability.csv
-2026-02-28 22:40:36,884  INFO        [E] Metrics plots saved
-2026-02-28 22:40:36,885  INFO        [F] Loaded cached structure_preservation.csv
-2026-02-28 22:40:36,886  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.432 (expected ~0.5 under null)
-2026-02-28 22:40:36,891  INFO        VERIFY: all output checks passed
-2026-02-28 22:40:36,891  INFO      DONE   female / chronic  (0.2 s)
-2026-02-28 22:40:36,891  INFO      Generating combined summary figures ...
-2026-02-28 22:40:36,891  INFO      Combined embeddings figure already exists, skipping
-2026-02-28 22:40:36,891  INFO      Combined graphs gallery already exists, skipping
-2026-02-28 22:40:36,891  INFO      Saved individual graph gallery PNGs → /Users/antemilicevic/Documents/Project/code/csh-tuwien-project/final/outputs/figures/graphs_gallery
-2026-02-28 22:40:36,891  INFO      Combined alignment residuals figure already exists, skipping
-2026-02-28 22:40:36,892  INFO      Combined structure preservation figure already exists, skipping
-2026-02-28 22:40:36,892  INFO      ============================================================
-2026-02-28 22:40:36,892  INFO      STEP H — Chronic analysis & node trajectories
-2026-02-28 22:40:36,892  INFO      ============================================================
-2026-02-28 22:40:36,892  INFO        [H] Processing male / icd ...
-2026-02-28 22:40:36,897  INFO        [H] 243 chronic codes matched out of 1080 graph nodes
-2026-02-28 22:40:37,052  INFO        [H] Processing female / icd ...
-2026-02-28 22:40:37,057  INFO        [H] 243 chronic codes matched out of 1080 graph nodes
-2026-02-28 22:40:37,207  INFO      Combined link prediction figure already exists, skipping
-2026-02-28 22:40:37,207  INFO      ------------------------------------------------------------
-2026-02-28 22:40:37,207  INFO      SUMMARY
-2026-02-28 22:40:37,207  INFO        male / icd       OK  (1.1 s)
-2026-02-28 22:40:37,207  INFO        male / blocks    OK  (0.3 s)
-2026-02-28 22:40:37,207  INFO        male / chronic   OK  (0.2 s)
-2026-02-28 22:40:37,207  INFO        female / icd       OK  (0.9 s)
-2026-02-28 22:40:37,207  INFO        female / blocks    OK  (0.2 s)
-2026-02-28 22:40:37,207  INFO        female / chronic   OK  (0.2 s)
-2026-02-28 22:40:37,207  INFO      Summary written to /Users/antemilicevic/Documents/Project/code/csh-tuwien-project/final/outputs/logs/summary.csv
-2026-02-28 22:40:37,207  INFO      All done.
+2026-03-07 01:18:26,958  INFO      Pipeline starting  (force=True, robustness=False, reproducible=False, threshold_robustness=False)
+2026-03-07 01:18:26,958  INFO      Data root: /Users/antemilicevic/Documents/Project/code/Data
+2026-03-07 01:18:26,959  INFO      Output root: /Users/antemilicevic/Documents/Project/final-repo/final/outputs
+2026-03-07 01:18:26,959  INFO      ============================================================
+2026-03-07 01:18:26,959  INFO      START  male / icd
+2026-03-07 01:18:26,959  INFO      ============================================================
+2026-03-07 01:18:27,369  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-03-07 01:18:28,551  INFO        [A] Saved graphs_gallery.png
+2026-03-07 01:18:29,870  INFO        [A] Saved individual graph panels
+2026-03-07 01:18:29,870  INFO        [B] Training embeddings age 1 (1080 nodes) ...
+2026-03-07 01:18:33,948  INFO        [B] Saved embeddings age 1 → age_1.parquet
+2026-03-07 01:18:33,948  INFO        [B] Training embeddings age 2 (1080 nodes) ...
+2026-03-07 01:18:36,336  INFO        [B] Saved embeddings age 2 → age_2.parquet
+2026-03-07 01:18:36,336  INFO        [B] Training embeddings age 3 (1080 nodes) ...
+2026-03-07 01:18:39,951  INFO        [B] Saved embeddings age 3 → age_3.parquet
+2026-03-07 01:18:39,952  INFO        [B] Training embeddings age 4 (1080 nodes) ...
+2026-03-07 01:18:46,352  INFO        [B] Saved embeddings age 4 → age_4.parquet
+2026-03-07 01:18:46,352  INFO        [B] Training embeddings age 5 (1080 nodes) ...
+2026-03-07 01:18:58,029  INFO        [B] Saved embeddings age 5 → age_5.parquet
+2026-03-07 01:18:58,029  INFO        [B] Training embeddings age 6 (1080 nodes) ...
+2026-03-07 01:19:13,046  INFO        [B] Saved embeddings age 6 → age_6.parquet
+2026-03-07 01:19:13,046  INFO        [B] Training embeddings age 7 (1080 nodes) ...
+2026-03-07 01:19:29,542  INFO        [B] Saved embeddings age 7 → age_7.parquet
+2026-03-07 01:19:29,542  INFO        [B] Training embeddings age 8 (1080 nodes) ...
+2026-03-07 01:19:44,992  INFO        [B] Saved embeddings age 8 → age_8.parquet
+2026-03-07 01:19:47,074  INFO        [C] Saved PCA plots
+2026-03-07 01:19:47,074  INFO        [D] Aligning to reference age 1 ...
+2026-03-07 01:19:51,297  INFO        [D] Alignment complete, saved residuals
+2026-03-07 01:19:51,297  INFO        [D] Aligning with non-isolate anchors ...
+2026-03-07 01:19:55,437  INFO        [D] Non-isolate alignment complete, saved to aligned_non_iso/
+2026-03-07 01:19:55,475  INFO        [E] Computed and saved drift
+2026-03-07 01:21:13,693  INFO        [E] Computed and saved stability
+2026-03-07 01:21:13,695  INFO        [E] Saved top_drifters.csv
+2026-03-07 01:21:14,811  INFO        [E] Saved non-isolate drift/stability summaries
+2026-03-07 01:21:16,145  INFO        [E] Metrics plots saved
+2026-03-07 01:21:27,854  DEBUG       [F] age 1 diag: eligible=425 safe=383 held_out=76 train=1080/349 2hop=1316 neg=76 fallback=False
+2026-03-07 01:21:34,918  DEBUG       [F] age 2 diag: eligible=120 safe=76 held_out=15 train=1080/105 2hop=195 neg=15 fallback=False
+2026-03-07 01:21:45,645  DEBUG       [F] age 3 diag: eligible=312 safe=267 held_out=53 train=1080/259 2hop=834 neg=53 fallback=False
+2026-03-07 01:22:04,607  DEBUG       [F] age 4 diag: eligible=631 safe=576 held_out=115 train=1080/516 2hop=3379 neg=115 fallback=False
+2026-03-07 01:22:38,365  DEBUG       [F] age 5 diag: eligible=1489 safe=1424 held_out=284 train=1080/1205 2hop=13496 neg=284 fallback=False
+2026-03-07 01:23:21,786  DEBUG       [F] age 6 diag: eligible=2456 safe=2393 held_out=478 train=1080/1978 2hop=23455 neg=478 fallback=False
+2026-03-07 01:24:09,166  DEBUG       [F] age 7 diag: eligible=3224 safe=3152 held_out=630 train=1080/2594 2hop=29331 neg=630 fallback=False
+2026-03-07 01:24:53,047  DEBUG       [F] age 8 diag: eligible=3663 safe=3595 held_out=719 train=1080/2944 2hop=33787 neg=719 fallback=False
+2026-03-07 01:24:53,267  INFO        [F] Structure preservation computed and saved
+2026-03-07 01:24:53,268  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.534 (expected ~0.5 under null)
+2026-03-07 01:24:53,272  INFO        VERIFY: all output checks passed
+2026-03-07 01:24:53,272  INFO      DONE   male / icd  (386.3 s)
+2026-03-07 01:24:53,276  INFO      ============================================================
+2026-03-07 01:24:53,276  INFO      START  male / blocks
+2026-03-07 01:24:53,276  INFO      ============================================================
+2026-03-07 01:24:53,351  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-03-07 01:24:53,915  INFO        [A] Saved graphs_gallery.png
+2026-03-07 01:24:54,581  INFO        [A] Saved individual graph panels
+2026-03-07 01:24:54,581  INFO        [B] Training embeddings age 1 (131 nodes) ...
+2026-03-07 01:24:56,459  INFO        [B] Saved embeddings age 1 → age_1.parquet
+2026-03-07 01:24:56,459  INFO        [B] Training embeddings age 2 (131 nodes) ...
+2026-03-07 01:24:58,066  INFO        [B] Saved embeddings age 2 → age_2.parquet
+2026-03-07 01:24:58,066  INFO        [B] Training embeddings age 3 (131 nodes) ...
+2026-03-07 01:25:00,100  INFO        [B] Saved embeddings age 3 → age_3.parquet
+2026-03-07 01:25:00,100  INFO        [B] Training embeddings age 4 (131 nodes) ...
+2026-03-07 01:25:02,774  INFO        [B] Saved embeddings age 4 → age_4.parquet
+2026-03-07 01:25:02,774  INFO        [B] Training embeddings age 5 (131 nodes) ...
+2026-03-07 01:25:05,891  INFO        [B] Saved embeddings age 5 → age_5.parquet
+2026-03-07 01:25:05,891  INFO        [B] Training embeddings age 6 (131 nodes) ...
+2026-03-07 01:25:09,414  INFO        [B] Saved embeddings age 6 → age_6.parquet
+2026-03-07 01:25:09,414  INFO        [B] Training embeddings age 7 (131 nodes) ...
+2026-03-07 01:25:13,176  INFO        [B] Saved embeddings age 7 → age_7.parquet
+2026-03-07 01:25:13,176  INFO        [B] Training embeddings age 8 (131 nodes) ...
+2026-03-07 01:25:16,854  INFO        [B] Saved embeddings age 8 → age_8.parquet
+2026-03-07 01:25:19,120  INFO        [C] Saved PCA plots
+2026-03-07 01:25:19,120  INFO        [D] Aligning to reference age 1 ...
+2026-03-07 01:25:23,241  INFO        [D] Alignment complete, saved residuals
+2026-03-07 01:25:23,241  INFO        [D] Aligning with non-isolate anchors ...
+2026-03-07 01:25:27,172  INFO        [D] Non-isolate alignment complete, saved to aligned_non_iso/
+2026-03-07 01:25:27,180  INFO        [E] Computed and saved drift
+2026-03-07 01:25:27,437  INFO        [E] Computed and saved stability
+2026-03-07 01:25:27,438  INFO        [E] Saved top_drifters.csv
+2026-03-07 01:25:27,541  INFO        [E] Saved non-isolate drift/stability summaries
+2026-03-07 01:25:28,053  INFO        [E] Metrics plots saved
+2026-03-07 01:25:33,403  DEBUG       [F] age 1 diag: eligible=253 safe=246 held_out=49 train=131/204 2hop=643 neg=49 fallback=False
+2026-03-07 01:25:38,025  DEBUG       [F] age 2 diag: eligible=115 safe=92 held_out=18 train=131/97 2hop=223 neg=18 fallback=False
+2026-03-07 01:25:43,905  DEBUG       [F] age 3 diag: eligible=203 safe=183 held_out=36 train=131/167 2hop=509 neg=36 fallback=False
+2026-03-07 01:25:51,583  DEBUG       [F] age 4 diag: eligible=373 safe=357 held_out=71 train=131/302 2hop=1291 neg=71 fallback=False
+2026-03-07 01:26:00,668  DEBUG       [F] age 5 diag: eligible=680 safe=674 held_out=134 train=131/546 2hop=2154 neg=134 fallback=False
+2026-03-07 01:26:10,842  DEBUG       [F] age 6 diag: eligible=974 safe=969 held_out=193 train=131/781 2hop=2701 neg=193 fallback=False
+2026-03-07 01:26:21,506  DEBUG       [F] age 7 diag: eligible=1162 safe=1155 held_out=231 train=131/931 2hop=2855 neg=231 fallback=False
+2026-03-07 01:26:32,078  DEBUG       [F] age 8 diag: eligible=1290 safe=1283 held_out=256 train=131/1034 2hop=2674 neg=256 fallback=False
+2026-03-07 01:26:32,290  INFO        [F] Structure preservation computed and saved
+2026-03-07 01:26:32,291  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.358 (expected ~0.5 under null)
+2026-03-07 01:26:32,296  INFO        VERIFY: all output checks passed
+2026-03-07 01:26:32,296  INFO      DONE   male / blocks  (99.0 s)
+2026-03-07 01:26:32,297  INFO      ============================================================
+2026-03-07 01:26:32,297  INFO      START  male / chronic
+2026-03-07 01:26:32,297  INFO      ============================================================
+2026-03-07 01:26:32,313  WARNING     Graph missing: sex=male variant=chronic age=1
+2026-03-07 01:26:32,332  INFO        [A] Loaded 7 graphs, saved graph_stats.csv
+2026-03-07 01:26:32,332  WARNING     Reference age 1 unavailable, falling back to 2
+2026-03-07 01:26:32,660  INFO        [A] Saved graphs_gallery.png
+2026-03-07 01:26:33,130  INFO        [A] Saved individual graph panels
+2026-03-07 01:26:33,130  INFO        [B] Training embeddings age 2 (46 nodes) ...
+2026-03-07 01:26:33,324  INFO        [B] Saved embeddings age 2 → age_2.parquet
+2026-03-07 01:26:33,324  INFO        [B] Training embeddings age 3 (46 nodes) ...
+2026-03-07 01:26:33,753  INFO        [B] Saved embeddings age 3 → age_3.parquet
+2026-03-07 01:26:33,753  INFO        [B] Training embeddings age 4 (46 nodes) ...
+2026-03-07 01:26:34,447  INFO        [B] Saved embeddings age 4 → age_4.parquet
+2026-03-07 01:26:34,447  INFO        [B] Training embeddings age 5 (46 nodes) ...
+2026-03-07 01:26:35,478  INFO        [B] Saved embeddings age 5 → age_5.parquet
+2026-03-07 01:26:35,478  INFO        [B] Training embeddings age 6 (46 nodes) ...
+2026-03-07 01:26:36,633  INFO        [B] Saved embeddings age 6 → age_6.parquet
+2026-03-07 01:26:36,633  INFO        [B] Training embeddings age 7 (46 nodes) ...
+2026-03-07 01:26:37,876  INFO        [B] Saved embeddings age 7 → age_7.parquet
+2026-03-07 01:26:37,876  INFO        [B] Training embeddings age 8 (46 nodes) ...
+2026-03-07 01:26:39,160  INFO        [B] Saved embeddings age 8 → age_8.parquet
+2026-03-07 01:26:40,367  INFO        [C] Saved PCA plots
+2026-03-07 01:26:40,367  INFO        [D] Aligning to reference age 2 ...
+2026-03-07 01:26:43,842  INFO        [D] Alignment complete, saved residuals
+2026-03-07 01:26:43,842  INFO        [D] Aligning with non-isolate anchors ...
+2026-03-07 01:26:47,031  INFO        [D] Non-isolate alignment complete, saved to aligned_non_iso/
+2026-03-07 01:26:47,034  INFO        [E] Computed and saved drift
+2026-03-07 01:26:47,072  INFO        [E] Computed and saved stability
+2026-03-07 01:26:47,073  INFO        [E] Saved top_drifters.csv
+2026-03-07 01:26:47,097  INFO        [E] Saved non-isolate drift/stability summaries
+2026-03-07 01:26:47,435  INFO        [E] Metrics plots saved
+2026-03-07 01:26:47,435  DEBUG       [F] age 2 diag: eligible=0 safe=0 held_out=0 train=0/0 2hop=0 neg=0 fallback=False
+2026-03-07 01:26:47,437  DEBUG       [F] age 3 diag: eligible=35 safe=30 held_out=0 train=0/0 2hop=0 neg=0 fallback=False
+2026-03-07 01:26:49,463  DEBUG       [F] age 4 diag: eligible=78 safe=71 held_out=14 train=46/64 2hop=136 neg=14 fallback=False
+2026-03-07 01:26:52,466  DEBUG       [F] age 5 diag: eligible=152 safe=147 held_out=29 train=46/123 2hop=254 neg=29 fallback=False
+2026-03-07 01:26:55,791  DEBUG       [F] age 6 diag: eligible=200 safe=192 held_out=38 train=46/162 2hop=385 neg=38 fallback=False
+2026-03-07 01:26:59,326  DEBUG       [F] age 7 diag: eligible=285 safe=282 held_out=56 train=46/229 2hop=422 neg=56 fallback=False
+2026-03-07 01:27:02,972  DEBUG       [F] age 8 diag: eligible=346 safe=346 held_out=69 train=46/277 2hop=503 neg=69 fallback=False
+2026-03-07 01:27:03,185  INFO        [F] Structure preservation computed and saved
+2026-03-07 01:27:03,186  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.364 (expected ~0.5 under null)
+2026-03-07 01:27:03,190  INFO        VERIFY: all output checks passed
+2026-03-07 01:27:03,190  INFO      DONE   male / chronic  (30.9 s)
+2026-03-07 01:27:03,191  INFO      ============================================================
+2026-03-07 01:27:03,191  INFO      START  female / icd
+2026-03-07 01:27:03,191  INFO      ============================================================
+2026-03-07 01:27:03,589  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-03-07 01:27:04,726  INFO        [A] Saved graphs_gallery.png
+2026-03-07 01:27:06,041  INFO        [A] Saved individual graph panels
+2026-03-07 01:27:06,041  INFO        [B] Training embeddings age 1 (1080 nodes) ...
+2026-03-07 01:27:09,183  INFO        [B] Saved embeddings age 1 → age_1.parquet
+2026-03-07 01:27:09,183  INFO        [B] Training embeddings age 2 (1080 nodes) ...
+2026-03-07 01:27:11,975  INFO        [B] Saved embeddings age 2 → age_2.parquet
+2026-03-07 01:27:11,975  INFO        [B] Training embeddings age 3 (1080 nodes) ...
+2026-03-07 01:27:16,205  INFO        [B] Saved embeddings age 3 → age_3.parquet
+2026-03-07 01:27:16,205  INFO        [B] Training embeddings age 4 (1080 nodes) ...
+2026-03-07 01:27:22,437  INFO        [B] Saved embeddings age 4 → age_4.parquet
+2026-03-07 01:27:22,438  INFO        [B] Training embeddings age 5 (1080 nodes) ...
+2026-03-07 01:27:33,161  INFO        [B] Saved embeddings age 5 → age_5.parquet
+2026-03-07 01:27:33,161  INFO        [B] Training embeddings age 6 (1080 nodes) ...
+2026-03-07 01:27:46,305  INFO        [B] Saved embeddings age 6 → age_6.parquet
+2026-03-07 01:27:46,305  INFO        [B] Training embeddings age 7 (1080 nodes) ...
+2026-03-07 01:28:01,561  INFO        [B] Saved embeddings age 7 → age_7.parquet
+2026-03-07 01:28:01,561  INFO        [B] Training embeddings age 8 (1080 nodes) ...
+2026-03-07 01:28:19,219  INFO        [B] Saved embeddings age 8 → age_8.parquet
+2026-03-07 01:28:21,292  INFO        [C] Saved PCA plots
+2026-03-07 01:28:21,292  INFO        [D] Aligning to reference age 1 ...
+2026-03-07 01:28:25,497  INFO        [D] Alignment complete, saved residuals
+2026-03-07 01:28:25,497  INFO        [D] Aligning with non-isolate anchors ...
+2026-03-07 01:28:29,305  INFO        [D] Non-isolate alignment complete, saved to aligned_non_iso/
+2026-03-07 01:28:29,341  INFO        [E] Computed and saved drift
+2026-03-07 01:29:45,546  INFO        [E] Computed and saved stability
+2026-03-07 01:29:45,547  INFO        [E] Saved top_drifters.csv
+2026-03-07 01:29:46,601  INFO        [E] Saved non-isolate drift/stability summaries
+2026-03-07 01:29:48,058  INFO        [E] Metrics plots saved
+2026-03-07 01:29:57,268  DEBUG       [F] age 1 diag: eligible=278 safe=240 held_out=48 train=1080/230 2hop=785 neg=48 fallback=False
+2026-03-07 01:30:05,435  DEBUG       [F] age 2 diag: eligible=156 safe=105 held_out=21 train=1080/135 2hop=382 neg=21 fallback=False
+2026-03-07 01:30:18,171  DEBUG       [F] age 3 diag: eligible=347 safe=297 held_out=59 train=1080/288 2hop=1041 neg=59 fallback=False
+2026-03-07 01:30:36,494  DEBUG       [F] age 4 diag: eligible=607 safe=559 held_out=111 train=1080/496 2hop=2680 neg=111 fallback=False
+2026-03-07 01:31:08,268  DEBUG       [F] age 5 diag: eligible=1352 safe=1287 held_out=257 train=1080/1095 2hop=11008 neg=257 fallback=False
+2026-03-07 01:31:46,950  DEBUG       [F] age 6 diag: eligible=2009 safe=1951 held_out=390 train=1080/1619 2hop=21563 neg=390 fallback=False
+2026-03-07 01:32:30,977  DEBUG       [F] age 7 diag: eligible=2642 safe=2570 held_out=514 train=1080/2128 2hop=29673 neg=514 fallback=False
+2026-03-07 01:33:22,355  DEBUG       [F] age 8 diag: eligible=4181 safe=4105 held_out=821 train=1080/3360 2hop=37797 neg=821 fallback=False
+2026-03-07 01:33:22,602  INFO        [F] Structure preservation computed and saved
+2026-03-07 01:33:22,603  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.502 (expected ~0.5 under null)
+2026-03-07 01:33:22,607  INFO        VERIFY: all output checks passed
+2026-03-07 01:33:22,608  INFO      DONE   female / icd  (379.4 s)
+2026-03-07 01:33:22,611  INFO      ============================================================
+2026-03-07 01:33:22,611  INFO      START  female / blocks
+2026-03-07 01:33:22,611  INFO      ============================================================
+2026-03-07 01:33:22,689  INFO        [A] Loaded 8 graphs, saved graph_stats.csv
+2026-03-07 01:33:23,222  INFO        [A] Saved graphs_gallery.png
+2026-03-07 01:33:23,863  INFO        [A] Saved individual graph panels
+2026-03-07 01:33:23,863  INFO        [B] Training embeddings age 1 (131 nodes) ...
+2026-03-07 01:33:25,491  INFO        [B] Saved embeddings age 1 → age_1.parquet
+2026-03-07 01:33:25,491  INFO        [B] Training embeddings age 2 (131 nodes) ...
+2026-03-07 01:33:27,406  INFO        [B] Saved embeddings age 2 → age_2.parquet
+2026-03-07 01:33:27,407  INFO        [B] Training embeddings age 3 (131 nodes) ...
+2026-03-07 01:33:29,630  INFO        [B] Saved embeddings age 3 → age_3.parquet
+2026-03-07 01:33:29,630  INFO        [B] Training embeddings age 4 (131 nodes) ...
+2026-03-07 01:33:32,326  INFO        [B] Saved embeddings age 4 → age_4.parquet
+2026-03-07 01:33:32,326  INFO        [B] Training embeddings age 5 (131 nodes) ...
+2026-03-07 01:33:35,463  INFO        [B] Saved embeddings age 5 → age_5.parquet
+2026-03-07 01:33:35,463  INFO        [B] Training embeddings age 6 (131 nodes) ...
+2026-03-07 01:33:38,881  INFO        [B] Saved embeddings age 6 → age_6.parquet
+2026-03-07 01:33:38,881  INFO        [B] Training embeddings age 7 (131 nodes) ...
+2026-03-07 01:33:42,605  INFO        [B] Saved embeddings age 7 → age_7.parquet
+2026-03-07 01:33:42,605  INFO        [B] Training embeddings age 8 (131 nodes) ...
+2026-03-07 01:33:46,690  INFO        [B] Saved embeddings age 8 → age_8.parquet
+2026-03-07 01:33:48,870  INFO        [C] Saved PCA plots
+2026-03-07 01:33:48,870  INFO        [D] Aligning to reference age 1 ...
+2026-03-07 01:33:52,933  INFO        [D] Alignment complete, saved residuals
+2026-03-07 01:33:52,933  INFO        [D] Aligning with non-isolate anchors ...
+2026-03-07 01:33:56,850  INFO        [D] Non-isolate alignment complete, saved to aligned_non_iso/
+2026-03-07 01:33:56,863  INFO        [E] Computed and saved drift
+2026-03-07 01:33:57,170  INFO        [E] Computed and saved stability
+2026-03-07 01:33:57,171  INFO        [E] Saved top_drifters.csv
+2026-03-07 01:33:57,278  INFO        [E] Saved non-isolate drift/stability summaries
+2026-03-07 01:33:57,764  INFO        [E] Metrics plots saved
+2026-03-07 01:34:02,502  DEBUG       [F] age 1 diag: eligible=170 safe=156 held_out=31 train=131/139 2hop=409 neg=31 fallback=False
+2026-03-07 01:34:08,072  DEBUG       [F] age 2 diag: eligible=152 safe=133 held_out=26 train=131/126 2hop=347 neg=26 fallback=False
+2026-03-07 01:34:14,543  DEBUG       [F] age 3 diag: eligible=263 safe=248 held_out=49 train=131/214 2hop=747 neg=49 fallback=False
+2026-03-07 01:34:22,388  DEBUG       [F] age 4 diag: eligible=420 safe=406 held_out=81 train=131/339 2hop=1424 neg=81 fallback=False
+2026-03-07 01:34:31,340  DEBUG       [F] age 5 diag: eligible=737 safe=730 held_out=146 train=131/591 2hop=2045 neg=146 fallback=False
+2026-03-07 01:34:41,085  DEBUG       [F] age 6 diag: eligible=945 safe=939 held_out=187 train=131/758 2hop=2643 neg=187 fallback=False
+2026-03-07 01:34:51,735  DEBUG       [F] age 7 diag: eligible=1121 safe=1114 held_out=222 train=131/899 2hop=2696 neg=222 fallback=False
+2026-03-07 01:35:03,403  DEBUG       [F] age 8 diag: eligible=1446 safe=1438 held_out=287 train=131/1159 2hop=3014 neg=287 fallback=False
+2026-03-07 01:35:03,618  INFO        [F] Structure preservation computed and saved
+2026-03-07 01:35:03,619  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.441 (expected ~0.5 under null)
+2026-03-07 01:35:03,624  INFO        VERIFY: all output checks passed
+2026-03-07 01:35:03,624  INFO      DONE   female / blocks  (101.0 s)
+2026-03-07 01:35:03,625  INFO      ============================================================
+2026-03-07 01:35:03,625  INFO      START  female / chronic
+2026-03-07 01:35:03,625  INFO      ============================================================
+2026-03-07 01:35:03,642  WARNING     Graph missing: sex=female variant=chronic age=1
+2026-03-07 01:35:03,665  INFO        [A] Loaded 7 graphs, saved graph_stats.csv
+2026-03-07 01:35:03,665  WARNING     Reference age 1 unavailable, falling back to 2
+2026-03-07 01:35:04,071  INFO        [A] Saved graphs_gallery.png
+2026-03-07 01:35:04,518  INFO        [A] Saved individual graph panels
+2026-03-07 01:35:04,518  INFO        [B] Training embeddings age 2 (46 nodes) ...
+2026-03-07 01:35:04,802  INFO        [B] Saved embeddings age 2 → age_2.parquet
+2026-03-07 01:35:04,802  INFO        [B] Training embeddings age 3 (46 nodes) ...
+2026-03-07 01:35:05,263  INFO        [B] Saved embeddings age 3 → age_3.parquet
+2026-03-07 01:35:05,263  INFO        [B] Training embeddings age 4 (46 nodes) ...
+2026-03-07 01:35:06,008  INFO        [B] Saved embeddings age 4 → age_4.parquet
+2026-03-07 01:35:06,008  INFO        [B] Training embeddings age 5 (46 nodes) ...
+2026-03-07 01:35:07,004  INFO        [B] Saved embeddings age 5 → age_5.parquet
+2026-03-07 01:35:07,004  INFO        [B] Training embeddings age 6 (46 nodes) ...
+2026-03-07 01:35:08,147  INFO        [B] Saved embeddings age 6 → age_6.parquet
+2026-03-07 01:35:08,147  INFO        [B] Training embeddings age 7 (46 nodes) ...
+2026-03-07 01:35:09,410  INFO        [B] Saved embeddings age 7 → age_7.parquet
+2026-03-07 01:35:09,410  INFO        [B] Training embeddings age 8 (46 nodes) ...
+2026-03-07 01:35:10,730  INFO        [B] Saved embeddings age 8 → age_8.parquet
+2026-03-07 01:35:11,843  INFO        [C] Saved PCA plots
+2026-03-07 01:35:11,843  INFO        [D] Aligning to reference age 2 ...
+2026-03-07 01:35:15,384  INFO        [D] Alignment complete, saved residuals
+2026-03-07 01:35:15,384  INFO        [D] Aligning with non-isolate anchors ...
+2026-03-07 01:35:18,517  INFO        [D] Non-isolate alignment complete, saved to aligned_non_iso/
+2026-03-07 01:35:18,523  INFO        [E] Computed and saved drift
+2026-03-07 01:35:18,566  INFO        [E] Computed and saved stability
+2026-03-07 01:35:18,567  INFO        [E] Saved top_drifters.csv
+2026-03-07 01:35:18,590  INFO        [E] Saved non-isolate drift/stability summaries
+2026-03-07 01:35:19,015  INFO        [E] Metrics plots saved
+2026-03-07 01:35:19,016  DEBUG       [F] age 2 diag: eligible=10 safe=0 held_out=0 train=0/0 2hop=0 neg=0 fallback=False
+2026-03-07 01:35:19,017  DEBUG       [F] age 3 diag: eligible=39 safe=35 held_out=0 train=0/0 2hop=0 neg=0 fallback=False
+2026-03-07 01:35:21,222  DEBUG       [F] age 4 diag: eligible=87 safe=81 held_out=16 train=46/71 2hop=170 neg=16 fallback=False
+2026-03-07 01:35:24,059  DEBUG       [F] age 5 diag: eligible=168 safe=163 held_out=32 train=46/136 2hop=289 neg=32 fallback=False
+2026-03-07 01:35:27,330  DEBUG       [F] age 6 diag: eligible=242 safe=237 held_out=47 train=46/195 2hop=323 neg=47 fallback=False
+2026-03-07 01:35:30,879  DEBUG       [F] age 7 diag: eligible=322 safe=317 held_out=63 train=46/259 2hop=417 neg=63 fallback=False
+2026-03-07 01:35:34,675  DEBUG       [F] age 8 diag: eligible=421 safe=419 held_out=83 train=46/338 2hop=413 neg=83 fallback=False
+2026-03-07 01:35:34,886  INFO        [F] Structure preservation computed and saved
+2026-03-07 01:35:34,887  INFO        [F] Control AUC (shuffled retrained embeddings, age 8): 0.491 (expected ~0.5 under null)
+2026-03-07 01:35:34,892  INFO        VERIFY: all output checks passed
+2026-03-07 01:35:34,892  INFO      DONE   female / chronic  (31.3 s)
+2026-03-07 01:35:34,892  INFO      Generating combined summary figures ...
+2026-03-07 01:35:40,302  INFO      Saved combined embeddings figure → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/combined_embeddings.png
+2026-03-07 01:35:45,457  INFO      Saved split embeddings panels → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/split
+2026-03-07 01:35:47,309  INFO      Saved combined graphs gallery → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/combined_graphs_gallery.png
+2026-03-07 01:35:49,327  INFO      Saved individual graph gallery PNGs → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/graphs_gallery
+2026-03-07 01:35:49,662  INFO      Saved combined alignment residuals → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/combined_alignment_residuals.png
+2026-03-07 01:35:50,051  INFO      Saved split alignment residual panels → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/split
+2026-03-07 01:35:50,542  INFO      Saved combined drift distribution → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/combined_drift_distribution.png
+2026-03-07 01:35:51,027  INFO      Saved split drift distribution panels → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/split
+2026-03-07 01:35:51,478  INFO      Saved combined drift by transition → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/combined_drift_by_transition.png
+2026-03-07 01:35:51,973  INFO      Saved split drift by-transition panels → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/split
+2026-03-07 01:35:52,482  INFO      Saved combined stability distribution → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/combined_stability_distribution.png
+2026-03-07 01:35:52,979  INFO      Saved split stability distribution panels → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/split
+2026-03-07 01:35:53,388  INFO      Saved combined stability by transition → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/combined_stability_by_transition.png
+2026-03-07 01:35:53,945  INFO      Saved split stability by-transition panels → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/split
+2026-03-07 01:35:54,299  INFO      Saved combined structure preservation → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/combined_structure_preservation.png
+2026-03-07 01:35:54,732  INFO      Saved split structure preservation panels → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/split
+2026-03-07 01:35:54,732  INFO      ============================================================
+2026-03-07 01:35:54,732  INFO      STEP H — Chronic analysis & node trajectories
+2026-03-07 01:35:54,732  INFO      ============================================================
+2026-03-07 01:35:54,732  INFO        [H] Processing male / icd ...
+2026-03-07 01:35:54,737  INFO        [H] 243 chronic codes matched out of 1080 graph nodes
+2026-03-07 01:35:54,741  INFO        [H1] Saved drift_chronic_vs_other_male.csv
+2026-03-07 01:35:54,857  INFO        [H1] Saved drift_chronic_vs_other_male.png
+2026-03-07 01:35:54,924  INFO        [H1] Saved drift_violin_male.png
+2026-03-07 01:35:55,079  INFO        [H2] Saved node_trajectory_male.csv
+2026-03-07 01:35:55,242  INFO        [H2] Saved node_trajectories_male.png
+2026-03-07 01:35:55,375  INFO        [H2] Saved distance_heatmap_male.png
+2026-03-07 01:35:55,376  INFO        [H] Processing female / icd ...
+2026-03-07 01:35:55,380  INFO        [H] 243 chronic codes matched out of 1080 graph nodes
+2026-03-07 01:35:55,385  INFO        [H1] Saved drift_chronic_vs_other_female.csv
+2026-03-07 01:35:55,500  INFO        [H1] Saved drift_chronic_vs_other_female.png
+2026-03-07 01:35:55,567  INFO        [H1] Saved drift_violin_female.png
+2026-03-07 01:35:55,721  INFO        [H2] Saved node_trajectory_female.csv
+2026-03-07 01:35:55,831  INFO        [H2] Saved node_trajectories_female.png
+2026-03-07 01:35:55,960  INFO        [H2] Saved distance_heatmap_female.png
+2026-03-07 01:35:56,364  INFO      Saved combined link prediction figure → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/combined_link_prediction.png
+2026-03-07 01:35:56,918  INFO      Saved split link prediction panels → /Users/antemilicevic/Documents/Project/final-repo/final/outputs/figures/split
+2026-03-07 01:35:56,918  INFO      ------------------------------------------------------------
+2026-03-07 01:35:56,918  INFO      SUMMARY
+2026-03-07 01:35:56,918  INFO        male / icd       OK  (386.3 s)
+2026-03-07 01:35:56,918  INFO        male / blocks    OK  (99.0 s)
+2026-03-07 01:35:56,918  INFO        male / chronic   OK  (30.9 s)
+2026-03-07 01:35:56,918  INFO        female / icd       OK  (379.4 s)
+2026-03-07 01:35:56,918  INFO        female / blocks    OK  (101.0 s)
+2026-03-07 01:35:56,918  INFO        female / chronic   OK  (31.3 s)
+2026-03-07 01:35:56,918  INFO      Summary written to /Users/antemilicevic/Documents/Project/final-repo/final/outputs/logs/summary.csv
+2026-03-07 01:35:56,918  INFO      All done.
