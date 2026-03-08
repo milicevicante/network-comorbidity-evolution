@@ -1,21 +1,21 @@
 node,mean_drift
-Urinary tract calculi,1.9695756435394287
-Urinary incontinence,1.8929987649122875
-Dizziness,0.9380602280919751
-Chronic cholecystitis/gallstones,0.8980550467967987
-Severe hearing loss,0.8922781003639102
-Severe vision reduction,0.8742550692210594
-Migraine/chronic headache,0.8526866550867757
-Diabetes mellitus,0.8482480645179749
-Insomnia,0.8125536839167277
-Hyperuricemia/gout,0.7763204077879587
-Sexual dysfunction,0.7722837161272764
-Asthma/COPD,0.7687762528657913
-Hemorrhoids,0.7493190675353011
-Tobacco abuse,0.7008088032404581
-Chronic gastritis/GERD,0.6963231917470694
-Cancer,0.6957042614618937
-Renal insufficiency,0.6942127098639806
-Chronic ischemic heart disease,0.6803963631391525
-Prostatic hyperplasia,0.6768356347456574
-Cerebral ischemia/chronic stroke,0.6558991704757015
+Urinary tract calculi,2.008869936068853
+Urinary incontinence,1.983892301718394
+Dizziness,1.0518396350865562
+Severe hearing loss,1.0446536876261234
+Chronic cholecystitis/gallstones,0.9733216961224874
+Hemorrhoids,0.8788206540048122
+Migraine/chronic headache,0.8576211240142584
+Insomnia,0.844200074672699
+Severe vision reduction,0.8120167876283327
+Tobacco abuse,0.7993681132793427
+Diabetes mellitus,0.7967444211244583
+Hyperuricemia/gout,0.7839577992757162
+Chronic gastritis/GERD,0.7834152784198523
+Cancer,0.7710628807544708
+Sexual dysfunction,0.7634039685751001
+Chronic ischemic heart disease,0.7416764249404272
+Intestinal diverticulosis,0.7322135865688324
+Chronic low back pain,0.7280147969722748
+Prostatic hyperplasia,0.7241501162449518
+Renal insufficiency,0.7199242413043976

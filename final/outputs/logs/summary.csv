@@ -1,7 +1,7 @@
 sex,node_type,status,seconds
-male,icd,OK,386.3
-male,blocks,OK,99.0
-male,chronic,OK,30.9
-female,icd,OK,379.4
-female,blocks,OK,101.0
-female,chronic,OK,31.3
+male,icd,OK,138.9
+male,blocks,OK,33.1
+male,chronic,OK,11.2
+female,icd,OK,139.1
+female,blocks,OK,34.3
+female,chronic,OK,9.6

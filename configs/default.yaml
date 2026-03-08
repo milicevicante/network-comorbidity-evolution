@@ -49,13 +49,13 @@ embeddings:
   dim: 128
 
   # Random walk parameters
-  walk_length: 80    # Length of each random walk
-  num_walks: 10      # Number of walks per node
-  window: 10         # Context window size for Word2Vec
+  walk_length: 120   # Length of each random walk
+  num_walks: 20      # Number of walks per node
+  window: 12         # Context window size for Word2Vec
 
   # Node2Vec bias parameters
-  p: 1.0             # Return parameter (1.0 = unbiased)
-  q: 1.0             # In-out parameter (1.0 = unbiased)
+  p: 2.0             # Return parameter (>1 = BFS-biased local exploration)
+  q: 0.5             # In-out parameter (<1 = BFS-biased local exploration)
 
   # Training parameters
   workers: 4         # Parallel workers for training
