@@ -162,10 +162,10 @@ The analysis pipeline has four stages. Each stage builds on the outputs of the p
 
 **Parameters** (from `configs/default.yaml`):
 - Dimensionality: 128
-- Walk length: 80 steps
-- Walks per node: 10
-- Context window: 10
-- p = q = 1.0 (unbiased walks, equivalent to DeepWalk)
+- Walk length: 120 steps
+- Walks per node: 20
+- Context window: 12
+- p = 2.0, q = 0.5 (BFS-biased local exploration)
 
 **Problem**: Each age group's embedding is trained independently, so the coordinate systems are arbitrary. Age 1's vectors and Age 2's vectors point in completely different directions — you cannot compare them directly.
 
@@ -331,11 +331,11 @@ All parameters live in `configs/default.yaml`:
 ```yaml
 embeddings:
   dim: 128            # Embedding dimensionality
-  walk_length: 80     # Random walk length
-  num_walks: 10       # Walks per node
-  window: 10          # Word2Vec context window
-  p: 1.0              # Return parameter (1.0 = unbiased)
-  q: 1.0              # In-out parameter (1.0 = unbiased)
+  walk_length: 120    # Random walk length
+  num_walks: 20       # Walks per node
+  window: 12          # Word2Vec context window
+  p: 2.0              # Return parameter (>1 = BFS-biased local exploration)
+  q: 0.5              # In-out parameter (<1 = BFS-biased local exploration)
   workers: 4          # Parallel workers
   seed: 42            # Random seed
 
