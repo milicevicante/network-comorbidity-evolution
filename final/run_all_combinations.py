@@ -64,7 +64,8 @@ SEXES = ["male", "female"]
 NODE_TYPES = ["icd", "blocks", "chronic"]
 ALL_AGES = list(range(1, 9))
 
-OUTPUT_ROOT = Path(__file__).resolve().parent / "outputs"
+OUTPUT_ROOT_DEFAULT = Path(__file__).resolve().parent / "outputs"
+OUTPUT_ROOT = OUTPUT_ROOT_DEFAULT  # may be overridden by --output-dir
 
 # cosine_sim and evaluate_structure imported from src.evaluation
 
@@ -2748,11 +2749,16 @@ def parse_args() -> argparse.Namespace:
                    help="k for kNN stability (default 25)")
     p.add_argument("--reference-age", type=int, default=1,
                    help="Reference age group for alignment (default 1)")
+    p.add_argument("--output-dir", type=str, default=None,
+                   help="Custom output directory (default: final/outputs)")
     return p.parse_args()
 
 
 def main() -> None:
+    global OUTPUT_ROOT
     args = parse_args()
+    if args.output_dir:
+        OUTPUT_ROOT = Path(args.output_dir).resolve()
     log = setup_logging()
 
     # Data root
